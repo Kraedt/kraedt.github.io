@@ -1,44 +1,161 @@
-/*
-Error: Invalid CSS after "@import "minima"": expected "{", was ";"
-        on line 4 of main.scss
+.header {
+    background: purple;
+}
 
-1: ---
-2: ---
-3: 
-4: @import "minima";
-5: 
-6: .test {
-7:   color: red;
-8: }
+.navbar {
+    background: green;
+}
 
-Backtrace:
-main.scss:4
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1278:in `expected'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1208:in `expected'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:677:in `block'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:696:in `block_child'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:41:in `parse'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:414:in `_to_tree'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
-C:/tools/ruby24/lib/ruby/gems/2.4.0/gems/sass-3.5.1/bin/scss:13:in `<top (required)>'
-C:/tools/ruby24/bin/scss:23:in `load'
-C:/tools/ruby24/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"@import \"minima\"\": expected \"{\", was \";\"\A         on line 4 of main.scss\A \A 1: ---\A 2: ---\A 3: \A 4: @import \"minima\";\A 5: \A 6: .test {\A 7:   color: red;\A 8: }"; }
+.social-media{
+    background: cyan;
+}
+
+.links {
+    background: blue;
+}
+
+/*<editor-fold desc="Base">*/
+
+html {
+    background: url("../assets/images/background.jpg") black no-repeat fixed;
+    background-size: 100%;
+    background-position: 0% 50%;
+    color: white;
+    font-family: Chapaza, serif;
+}
+
+.content-window {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    border: solid #FF9A01;
+    border-radius: 10px;
+    box-shadow: 14px 14px 28px rgba(0, 0, 0, 0.8);
+}
+
+.body-content {
+    min-height: calc(100vh - 280px);
+    margin: 0 16em 0 16em;
+    padding-bottom: 40px;
+}
+
+@font-face {
+    font-family: Chapaza;
+    src: url('../assets/fonts/Chapaza.ttf');
+}
+
+@font-face {
+    font-family: Leon;
+    src: url('../assets/fonts/Leon-Regular_TRIAL.ttf');
+}
+
+ol, ul {
+    list-style: none;
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+a {
+    color: #FF9A03;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #FFD603;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="Header">*/
+
+.navbar {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.navbar .links {
+    display: table;
+    margin: 0 auto;
+}
+
+.navbar ul, li {
+    display: inline;
+    padding: 0 1em 0 1em;
+}
+
+.header .sm {
+    padding: 0 0.2em 0 0.2em;
+}
+
+.header .br {
+    padding-left: 1em;
+}
+
+.sm img {
+    width: 35px;
+    height: 35px;
+    filter: brightness(100) grayscale(100%);
+    -webkit-filter: brightness(100) grayscale(100%);
+}
+
+.sm img:hover {
+    filter: brightness(100%) grayscale(0);
+    -webkit-filter: brightness(100%) grayscale(0);
+}
+
+.header{
+    font-size: 1.5em;
+    font-family: Leon, serif;
+    color: #ffffff;
+    margin: 1em;
+}
+
+.header > li > a:active,
+.header > li > a:hover,
+.header > li > a.focus {
+    color: #FF9A03;
+    background-color: transparent;
+}
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="Footer">*/
+footer {
+    height: 20px;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+footer a,
+footer a:visited {
+    color: black;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #FF9A03;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+/*</editor-fold>*/
