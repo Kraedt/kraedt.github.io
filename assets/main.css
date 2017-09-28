@@ -1,22 +1,6 @@
-.header {
-    background: purple;
-}
-
-.navbar {
-    background: green;
-}
-
-.social-media{
-    background: cyan;
-}
-
-.links {
-    background: blue;
-}
-
 /*<editor-fold desc="Base">*/
 
-html {
+body {
     background: url("../assets/images/background.jpg") black no-repeat fixed;
     background-size: 100%;
     background-position: 0% 50%;
@@ -37,6 +21,7 @@ html {
     min-height: calc(100vh - 280px);
     margin: 0 16em 0 16em;
     padding-bottom: 40px;
+    font-family: Helvetica, serif;
 }
 
 @font-face {
@@ -49,9 +34,9 @@ html {
     src: url('../assets/fonts/Leon-Regular_TRIAL.ttf');
 }
 
-ol, ul {
-    list-style: none;
-    font-size: 1.1em;
+ul {
+    list-style: square;
+    font-size: 1em;
 }
 
 h1 {
@@ -59,11 +44,11 @@ h1 {
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 a {
@@ -78,7 +63,7 @@ a:focus {
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 /*</editor-fold>*/
@@ -86,22 +71,33 @@ p {
 /*<editor-fold desc="Header">*/
 
 .navbar {
-    font-size: 1em;
     text-decoration: none;
+    margin-top: -0.6em;
+}
+
+.navbar-shadow{
+    position: absolute;
+    margin-top: -8px;
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.6), rgba(0,0,0,0));
+    width: 100%;
+    height: 95px;
+    border: none;
+    z-index: -1;
 }
 
 .navbar .links {
     display: table;
     margin: 0 auto;
+    padding-top: 1em;
 }
 
-.navbar ul, li {
+.navbar ul, .navbar li {
     display: inline;
-    padding: 0 1em 0 1em;
+    padding: 0 1.5em 0 1.5em;
 }
 
 .header .sm {
-    padding: 0 0.2em 0 0.2em;
+    padding: 0 0.3em 0 0.3em;
 }
 
 .header .br {
@@ -111,6 +107,7 @@ p {
 .sm img {
     width: 35px;
     height: 35px;
+    vertical-align: middle;
     filter: brightness(100) grayscale(100%);
     -webkit-filter: brightness(100) grayscale(100%);
 }
@@ -121,17 +118,33 @@ p {
 }
 
 .header{
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: Leon, serif;
     color: #ffffff;
-    margin: 1em;
 }
 
-.header > li > a:active,
-.header > li > a:hover,
-.header > li > a.focus {
+.header a {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.header .active,
+.header a:active,
+.header a:hover,
+.header a.focus {
     color: #FF9A03;
     background-color: transparent;
+}
+
+.header ul {
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+.logo {
+    text-align: center;
+    padding: 1em 0 1em 0;
 }
 
 /*</editor-fold>*/

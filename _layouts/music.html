@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{{content}}
+
+<h2>Music</h2>
+
+<ul>
+{% for song in site.data.songs %}
+<li>{{song.title}}</li>
+{% endfor %}
+</ul>
