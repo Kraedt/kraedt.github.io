@@ -17,7 +17,7 @@ layout: default
     {% for song in site.pages %}
     {% if song.type == 'Song' %}
     <tr>
-        <td><a href="{{song.url}}"><img class="image-prop" src="../assets/images/songs/{{song.image}}"/></a></td>
+        <td><a href="{{song.url}}"><img class="image-prop" src="/assets/images/songs/{{song.image}}"/></a></td>
         <td>{{song.title}}</td>
         <td>{{song.artist}}</td>
         <td>{{song.genre}}</td>
