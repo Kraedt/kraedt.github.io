@@ -6,8 +6,31 @@ layout: default
 
 <h2>Music</h2>
 
-<ul>
-{% for song in site.data.songs %}
-<li>{{song.title}}</li>
-{% endfor %}
-</ul>
+<table class="music-page">
+    <tr>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Artist</th>
+        <th>Genre</th>
+        <th></th>
+    </tr>
+    {% for song in site.pages %}
+    {% if song.type == 'Song' %}
+    <tr>
+        <td><a href="{{song.url}}"><img class="image-prop" src="../assets/images/songs/{{song.image}}"/></a></td>
+        <td>{{song.title}}</td>
+        <td>{{song.artist}}</td>
+        <td>{{song.genre}}</td>
+        <td>
+            <div class="audio-links">
+                {% include ext-link.html url=song.direct title='Direct Download' img='direct' %}
+                {% include ext-link.html url=song.itunes title='iTunes' img='itunes' %}
+                {% include ext-link.html url=song.beatport title='Beatport' img='beatport' %}
+                {% include ext-link.html url=song.gplay title='Google Play' img='google' %}
+                {% include ext-link.html url=song.amazon title='iTunes' img='amazon' %}
+            </div>
+        </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>

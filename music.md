@@ -1,5 +1,5 @@
 ---
 layout: music
-title: Music
+title: Kraedt - Music
 permalink: /music/
 ---

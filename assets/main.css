@@ -66,6 +66,16 @@ p {
     font-size: 1em;
 }
 
+.image-prop {
+    width: 100px;
+    height: 100px;
+}
+
+.image-prop-small {
+    width: 50px;
+    height: 50px;
+}
+
 /*</editor-fold>*/
 
 /*<editor-fold desc="Header">*/
@@ -150,6 +160,7 @@ p {
 /*</editor-fold>*/
 
 /*<editor-fold desc="Footer">*/
+
 footer {
     height: 20px;
     text-align: center;
@@ -171,4 +182,25 @@ footer a:focus {
     color: #FF9A03;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
+
+/*</editor-fold>*/
+
+/*<editor-fold desc='Music'>*/
+
+.music-page table, .music-page td {
+    width: 100%;
+    table-layout: auto;
+    border-top: 1px solid white;
+}
+
+.song-page, .song-page td {
+    width: 100%;
+    text-align: center;
+}
+
+.audio-links {
+    display: inline-block;
+    width: 280px;
+}
+
 /*</editor-fold>*/

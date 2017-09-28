@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<h2><a href="../music/"/>See More Music</a></h2>
+<table class="song-page">
+    <tr>
+        <td><img src="/assets/images/songs/{{page.image}}"/></td>
+    </tr>
+    <tr>
+        <td>
+            <h2>{{page.title}}</h2>
+            <h3>{{page.artist}}</h3>
+        </td>
+    </tr>
+    <tr>
+        <td><a class="download-button" href="{{page.download-url}}">Download</a></td>
+    </tr>
+    <tr>
+        <td>
+            {% if page.buy-able %}
+            <p>Buy the song:</p>
+            {% include ext-link.html url=page.itunes title='iTunes' img='itunes' %}
+            {% include ext-link.html url=page.beatport title='Beatport' img='beatport' %}
+            {% include ext-link.html url=page.gplay title='Google Play' img='google' %}
+            {% include ext-link.html url=page.amazon title='iTunes' img='amazon' %}
+            {% endif %}
+        </td>
+    </tr>
+    <tr>
+        <td>License Information</td>
+    </tr>
+</table>
