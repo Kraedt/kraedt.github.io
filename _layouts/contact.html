@@ -3,6 +3,16 @@ layout: default
 ---
 
 <h2>Contact</h2>
+{{ content }}
 <p class="mobile-warning"></p>
 
-Email: kraedt@gmail.com
+<form method="post" action="{{ site.download-site }}contact">
+    <input type="text" name="name" maxlength="40" placeholder="Name"/><br/>
+    <input type="email" name="email" placeholder="Email Address" required/><br/>
+    <textarea name="message" draggable="false" rows="6" placeholder="Message" maxlength="360" required></textarea><br/>
+    <input class="button" type="submit" value="Submit"/>
+</form>
+
+<br />
+<h2>Form not working? Email me directly at:</h2>
+<h3>kraedt@gmail.com</h3>

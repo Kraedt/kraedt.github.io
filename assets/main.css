@@ -52,6 +52,33 @@ body {
     src: url('/assets/fonts/Montserrat-Regular.ttf')
 }
 
+/* Set width on the form input elements since they're 100% wide by default */
+select,
+textarea {
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+
+form input {
+    width: auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+
+form .button {
+    width: auto;
+    float: right;
+}
+
+.message {
+    color: #FFD603;
+}
+
+.error {
+    color: red;
+}
+
 ul {
     list-style: square;
     font-size: 1em;

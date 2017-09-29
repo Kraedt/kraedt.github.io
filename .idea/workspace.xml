@@ -3,43 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e1f4b999-cd61-48b4-a372-70c43ad10d84" name="Default" comment="Update config">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/song.html" afterPath="$PROJECT_DIR$/_layouts/song.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/contact.html" afterPath="$PROJECT_DIR$/_layouts/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/main.css" afterPath="$PROJECT_DIR$/assets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/_template.md" afterPath="$PROJECT_DIR$/music/songs/_template.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/blackout.md" afterPath="$PROJECT_DIR$/music/songs/blackout.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/boxcutter.md" afterPath="$PROJECT_DIR$/music/songs/boxcutter.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/brink-vip.md" afterPath="$PROJECT_DIR$/music/songs/brink-vip.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/brink.md" afterPath="$PROJECT_DIR$/music/songs/brink.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/cloud-surfing.md" afterPath="$PROJECT_DIR$/music/songs/cloud-surfing.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/crate.md" afterPath="$PROJECT_DIR$/music/songs/crate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/emerald.md" afterPath="$PROJECT_DIR$/music/songs/emerald.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/facet.md" afterPath="$PROJECT_DIR$/music/songs/facet.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/finite.md" afterPath="$PROJECT_DIR$/music/songs/finite.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/get-on-up-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/get-on-up-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/going-crazy.md" afterPath="$PROJECT_DIR$/music/songs/going-crazy.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/heart-attack-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/heart-attack-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/homebound.md" afterPath="$PROJECT_DIR$/music/songs/homebound.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/how-i-roll-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/how-i-roll-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/insomnia.md" afterPath="$PROJECT_DIR$/music/songs/insomnia.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/isometric.md" afterPath="$PROJECT_DIR$/music/songs/isometric.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/levitate.md" afterPath="$PROJECT_DIR$/music/songs/levitate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/life-at-balance-kraedt-edit.md" afterPath="$PROJECT_DIR$/music/songs/life-at-balance-kraedt-edit.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/loot.md" afterPath="$PROJECT_DIR$/music/songs/loot.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/lux.md" afterPath="$PROJECT_DIR$/music/songs/lux.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/mystic.md" afterPath="$PROJECT_DIR$/music/songs/mystic.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/pyromania.md" afterPath="$PROJECT_DIR$/music/songs/pyromania.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/specter.md" afterPath="$PROJECT_DIR$/music/songs/specter.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/storm-clouds.md" afterPath="$PROJECT_DIR$/music/songs/storm-clouds.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/submersion-vip.md" afterPath="$PROJECT_DIR$/music/songs/submersion-vip.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/submersion.md" afterPath="$PROJECT_DIR$/music/songs/submersion.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/syntax.md" afterPath="$PROJECT_DIR$/music/songs/syntax.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/what-you-got.md" afterPath="$PROJECT_DIR$/music/songs/what-you-got.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/where-do-we-go-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/where-do-we-go-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/white-lies-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/white-lies-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/you-can-find-it.md" afterPath="$PROJECT_DIR$/music/songs/you-can-find-it.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/zero-gravity.md" afterPath="$PROJECT_DIR$/music/songs/zero-gravity.md" />
     </list>
     <ignored path="kraedt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +26,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="storm-clouds.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/songs/storm-clouds.md">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47045192">
+              <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+              <folding>
+                <element signature="e#1842#1873#0" expanded="false" />
+                <element signature="e#4451#4482#0" expanded="false" />
+                <element signature="e#4966#4996#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor vertical-scroll-proportion="0.0">
@@ -76,8 +65,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.17728853">
-                <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <first_editor vertical-scroll-proportion="0.078794904">
+                <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -85,32 +74,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submersion.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/songs/submersion.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.17728853">
-                <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submersion-vip.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/songs/submersion-vip.md">
+      <file leaf-file-name="contact-success.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact-success.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor vertical-scroll-proportion="0.0">
@@ -124,8 +89,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.17728853">
-                <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <first_editor vertical-scroll-proportion="0.059096176">
+                <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -133,32 +98,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="syntax.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/songs/syntax.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.17728853">
-                <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="where-do-we-go-kraedt-remix.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/songs/where-do-we-go-kraedt-remix.md">
+      <file leaf-file-name="contact-error.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact-error.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor vertical-scroll-proportion="0.0">
@@ -172,8 +113,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.15758981">
-                <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <first_editor vertical-scroll-proportion="0.11819235">
+                <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -277,11 +218,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="song-embed.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="song-embed.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/song-embed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.514574">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#button#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
@@ -305,10 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_layouts/home.html" />
-        <option value="$PROJECT_DIR$/_layouts/merch.html" />
-        <option value="$PROJECT_DIR$/_layouts/contact.html" />
-        <option value="$PROJECT_DIR$/music/songs/goingcrazy.md" />
         <option value="$PROJECT_DIR$/_posts/2017-09-27-welcome-to-jekyll.markdown" />
         <option value="$PROJECT_DIR$/_includes/ext-link.html" />
         <option value="$PROJECT_DIR$/_data/license.yml" />
@@ -318,7 +255,6 @@
         <option value="$PROJECT_DIR$/_layouts/music.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/assets/main.css" />
         <option value="$PROJECT_DIR$/music/songs/_template.md" />
         <option value="$PROJECT_DIR$/_includes/song-embed.html" />
         <option value="$PROJECT_DIR$/music/songs/going-crazy.md" />
@@ -356,6 +292,11 @@
         <option value="$PROJECT_DIR$/music/songs/you-can-find-it.md" />
         <option value="$PROJECT_DIR$/music/songs/zero-gravity.md" />
         <option value="$PROJECT_DIR$/music/songs/what-you-got.md" />
+        <option value="$PROJECT_DIR$/_layouts/contact.html" />
+        <option value="$PROJECT_DIR$/contact.md" />
+        <option value="$PROJECT_DIR$/contact-success.md" />
+        <option value="$PROJECT_DIR$/contact-error.md" />
+        <option value="$PROJECT_DIR$/assets/main.css" />
       </list>
     </option>
   </component>
@@ -502,16 +443,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\kraedt.github.io" />
+      <recent name="D:\GitHub\kraedt.github.io\music\songs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\kraedt.github.io\assets\fonts" />
       <recent name="D:\GitHub\kraedt.github.io\music\songs" />
       <recent name="D:\GitHub\kraedt.github.io\assets\images\songs" />
       <recent name="D:\GitHub\kraedt.github.io" />
       <recent name="D:\GitHub\kraedt.github.io\_posts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\kraedt.github.io\music\songs" />
-      <recent name="D:\GitHub\kraedt.github.io" />
     </key>
   </component>
   <component name="RunManager">
@@ -609,53 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.078794904">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.059096176">
-            <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
@@ -667,13 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6153846">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -747,18 +634,6 @@
         <state vertical-scroll-proportion="-13.076923">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.961538">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#1453#1484#0" expanded="false" />
-            <element signature="e#4062#4093#0" expanded="false" />
-            <element signature="e#4577#4607#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1542,11 +1417,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/song-embed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.514574">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#button#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.078794904">
+            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-success.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor vertical-scroll-proportion="0.059096176">
+            <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-error.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor vertical-scroll-proportion="0.11819235">
+            <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47045192">
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+          <folding>
+            <element signature="e#1842#1873#0" expanded="false" />
+            <element signature="e#4451#4482#0" expanded="false" />
+            <element signature="e#4966#4996#0" expanded="false" />
           </folding>
         </state>
       </provider>
