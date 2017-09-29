@@ -7,6 +7,7 @@ genre: Trance
 image: Life At Balance.jpg
 buy-able: false
 downloadable: true
+yt-id: 8XzaILSakZg
 itunes:
 beatport:
 gplay:

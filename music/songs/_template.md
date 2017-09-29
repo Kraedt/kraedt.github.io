@@ -7,6 +7,7 @@ genre:
 image:
 buy-able:
 downloadable:
+soundcloud:
 itunes:
 beatport:
 gplay:

@@ -7,6 +7,7 @@ genre: Drum & Bass
 image: Homebound.jpg
 buy-able: true
 downloadable: false
+yt-id: 7CP9ZOHlF3Q
 itunes: https://itunes.apple.com/us/album/homebound-single/id928536735
 beatport: https://www.beatport.com/release/homebound/1397841
 gplay: https://play.google.com/store/music/album/Kraedt_Homebound?id=Bmw4m7lzje5yzh7ciptrcxepzie

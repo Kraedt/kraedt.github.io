@@ -7,6 +7,7 @@ genre: Dubstep
 image:
 buy-able: true
 downloadable: false
+yt-id: ifSwMU9m4Xk
 itunes: https://itunes.apple.com/us/album/find-pieces-kraedt-remix-single/id1103644041
 beatport:
 gplay: https://play.google.com/store/music/album?id=Bhtyr4civqnk6ussf3w2cyphzzy&tid=song-Thtbqluothdbzu7urw36cesosii

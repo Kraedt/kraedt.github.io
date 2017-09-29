@@ -7,6 +7,7 @@ genre: Drum & Bass
 image: Insomnia.jpg
 buy-able: true
 downloadable: false
+yt-id: alFf6SK0H-Y
 itunes: https://itunes.apple.com/us/album/insomnia-single/id979956296
 beatport: https://www.beatport.com/release/insomnia/1501755
 gplay: https://play.google.com/store/music/album?id=Bcigmf6mus3ny6hnhwgnxrxp2fi&tid=song-Tctrqjkhvma5duww27ujd6fijlu

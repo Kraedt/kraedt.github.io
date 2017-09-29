@@ -7,6 +7,7 @@ genre: Drum & Bass
 image: Disco Dodgeball Soundtrack.jpg
 buy-able: true
 downloadable: true
+yt-id: ERRp_dPti-E
 itunes: https://itunes.apple.com/us/album/the-record-crate/id1195366160
 beatport:
 gplay: https://play.google.com/store/music/album/Kraedt_The_Record_Crate?id=Bu5yuoi4jpz4rpvk77wtfvtbqgu

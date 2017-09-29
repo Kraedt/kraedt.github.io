@@ -7,6 +7,7 @@ genre: Electro House
 image: Boxcutter.jpg
 buy-able: true
 downloadable: true
+yt-id: KMRAMqbVhpY
 itunes: https://itunes.apple.com/us/album/the-record-crate/id1195366160
 beatport:
 gplay: dbo.Song

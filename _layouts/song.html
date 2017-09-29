@@ -17,9 +17,20 @@ layout: default
             <h3>{{page.artist}}</h3>
         </td>
     </tr>
+    <tr>
+        <td>
+            {% if page.yt-id != nil %}
+            {% include song-embed.html yt-id=page.yt-id %}
+            {% endif %}
+        </td>
+    </tr>
+    <tr><td><br/></td></tr>
     {% if page.downloadable %}
     <tr>
-        <td><button class="btn-download" type="button" onClick="javascript:location.href = '{{ site.download-site-dl }}{{ page.id }}';" />DOWNLOAD</button></td>
+        <td>
+            <button class="btn-download" type="button"
+                    onClick="javascript:location.href = '{{ site.download-site-dl }}{{ page.id }}';"/>
+            DOWNLOAD</button></td>
     </tr>
     {% endif %}
     <tr>

@@ -7,6 +7,7 @@ genre: Progressive House
 image: Levitate.jpg
 buy-able: true
 downloadable: true
+yt-id: Y4m4Qwsaqgw
 itunes: https://itunes.apple.com/us/album/the-record-crate/id1195366160
 beatport:
 gplay: https://play.google.com/store/music/album/Kraedt_The_Record_Crate?id=Bu5yuoi4jpz4rpvk77wtfvtbqgu

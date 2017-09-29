@@ -7,6 +7,7 @@ genre: House Hybrid
 image: What You Got.jpg
 buy-able: true
 downloadable: false
+yt-id: TQLNN4loCdY
 itunes: https://itunes.apple.com/us/album/what-you-got-single/id1279566158
 beatport:
 gplay: https://play.google.com/store/music/album/Third_Digit_Kraedt_What_You_Got?id=Bxxsjyfgmang5bva36dsvn4phry
