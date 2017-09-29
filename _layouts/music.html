@@ -30,7 +30,10 @@ layout: default
         <td>{{ song.genre }}</td>
         <td>
             <div class="audio-links">
-                {% include ext-link.html url=song.direct title='Direct Download' img='direct' %}
+                {% if song.downloadable %}
+                {% assign download-url = site.download-site | append: song.id %}
+                {% include ext-link.html url=download-url title='Direct Download' img='direct' %}
+                {% endif %}
                 {% include ext-link.html url=song.itunes title='iTunes' img='itunes' %}
                 {% include ext-link.html url=song.beatport title='Beatport' img='beatport' %}
                 {% include ext-link.html url=song.gplay title='Google Play' img='google' %}
