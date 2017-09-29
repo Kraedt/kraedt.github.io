@@ -15,7 +15,7 @@ layout: default
         <th></th>
     </tr>
     {% for song in site.pages %}
-    {% if song.type == 'Song' %}
+    {% if song.layout == 'song' %}
     <tr>
         <td><a href="{{song.url}}"><img class="image-prop" src="/assets/images/songs/{{song.image}}"/></a></td>
         <td>{{song.title}}</td>
