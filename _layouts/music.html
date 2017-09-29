@@ -31,7 +31,7 @@ layout: default
         <td>
             <div class="audio-links">
                 {% if song.downloadable %}
-                {% assign download-url = site.download-site | append: song.id %}
+                {% assign download-url = site.download-site-dl | append: song.id %}
                 {% include ext-link.html url=download-url title='Direct Download' img='direct' %}
                 {% endif %}
                 {% include ext-link.html url=song.itunes title='iTunes' img='itunes' %}
