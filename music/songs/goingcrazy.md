@@ -4,7 +4,7 @@ title: Going Crazy
 artist: Kraedt
 genre: Progressive House
 type: Song
-image: goingcrazy.jpg
+image: GoingCrazy.jpg
 buy-able: true
 direct: test
 itunes: test
