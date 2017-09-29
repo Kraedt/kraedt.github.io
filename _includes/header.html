@@ -29,7 +29,7 @@
     <div class="navbar" id="nav">
         <ul class="links">
             <li><a href="/" class="{%if page.url == '/'%}active{%endif%}">HOME</a></li>
-            <li><a href="/music" class="{%if page.url == '/music/'%}active{%endif%}">MUSIC</a></li>
+            <li><a href="/music" class="{%if page.url contains '/music/'%}active{%endif%}">MUSIC</a></li>
             <li><a href="/merch" class="{%if page.url == '/merch/'%}active{%endif%}">MERCH</a></li>
             <li><a href="/contact" class="{%if page.url == '/contact/'%}active{%endif%}">CONTACT</a></li>
             <li class="br"></li>

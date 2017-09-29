@@ -58,6 +58,7 @@ textarea {
     width: 100%;
     font-family: Montserrat, sans-serif;
     font-size: 14px;
+    resize: none;
 }
 
 form input {
@@ -77,6 +78,19 @@ form .button {
 
 .error {
     color: red;
+}
+
+.corner-controls {
+    position: fixed;
+    right: 1.5em;
+    bottom: 1em;
+    font-size: 16px;
+    text-align: right;
+}
+
+.corner-controls a {
+    padding-top: 10px;
+    display: block;
 }
 
 ul {

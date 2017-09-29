@@ -2,11 +2,21 @@
 layout: default
 ---
 
+<script>
+    function gotoTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
+
 {{content}}
 
 <h2>Music</h2>
 
 <p class="mobile-warning"></p>
+
+<div class="corner-controls">
+    <a onclick="gotoTop()" href="javascript:void(0)">Go to Top</a>
+</div>
 
 <table class="music-page">
     <tr>
