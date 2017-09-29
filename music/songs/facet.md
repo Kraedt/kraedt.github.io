@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/4
+redirect_from: /Home/Song/4
 id: 4
 title: Facet
 artist: Kraedt & Rayzer

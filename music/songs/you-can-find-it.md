@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/28
+redirect_from: /Home/Song/28
 id: 28
 title: You Can Find It
 artist: Tryhardninja & Kraedt

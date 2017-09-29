@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/22
+redirect_from: /Home/Song/22
 id: 22
 title: Find The Pieces (Kraedt Remix)
 artist: Tryhardninja

@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/23
+redirect_from: /Home/Song/23
 id: 23
 title: Cloud Surfing
 artist: Age Of Vinyl & Kraedt

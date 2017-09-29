@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/13
+redirect_from: /Home/Song/13
 id: 13
 title: Brink
 artist: Kraedt

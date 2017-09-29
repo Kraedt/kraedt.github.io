@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/21
+redirect_from: /Home/Song/21
 id: 21
 title: Loot
 artist: Kraedt

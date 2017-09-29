@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/14
+redirect_from: /Home/Song/14
 id: 14
 title: Boxcutter (ft. Rayzer)
 artist: Kraedt

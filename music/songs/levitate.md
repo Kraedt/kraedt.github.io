@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/8
+redirect_from: /Home/Song/8
 id: 8
 title: Levitate
 artist: Kraedt

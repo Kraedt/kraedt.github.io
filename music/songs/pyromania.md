@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/7
+redirect_from: /Home/Song/7
 id: 7
 title: Pyromania
 artist: Kraedt

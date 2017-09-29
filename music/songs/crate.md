@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/0
+redirect_from: /Home/Song/0
 id: 0
 title: Crate
 artist: Kraedt

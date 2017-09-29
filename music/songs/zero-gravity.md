@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/9
+redirect_from: /Home/Song/9
 id: 9
 title: Zero Gravity
 artist: Kraedt

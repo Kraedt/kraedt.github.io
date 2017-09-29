@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/24
+redirect_from: /Home/Song/24
 id: 24
 title: Emerald
 artist: Kraedt

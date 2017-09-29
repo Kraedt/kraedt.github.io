@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/15
+redirect_from: /Home/Song/15
 id: 15
 title: Life At Balance (Kraedt's Epic Trance Edit)
 artist: Jordan Maron vs Kraedt

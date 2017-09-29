@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/30
+redirect_from: /Home/Song/30
 id: 30
 title: Submersion (VIP)
 artist: Kraedt

@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/29
+redirect_from: /Home/Song/29
 id: 29
 title: Storm Clouds
 artist: Kraedt

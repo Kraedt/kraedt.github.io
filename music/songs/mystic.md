@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/27
+redirect_from: /Home/Song/27
 id: 27
 title: Mystic
 artist: Kraedt

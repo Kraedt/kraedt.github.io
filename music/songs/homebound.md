@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/11
+redirect_from: /Home/Song/11
 id: 11
 title: Homebound
 artist: Kraedt

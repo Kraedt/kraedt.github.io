@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/3
+redirect_from: /Home/Song/3
 id: 3
 title: Finite
 artist: Kraedt

@@ -1,6 +1,6 @@
 ---
 layout: song
-redirect_from: /home/song/32
+redirect_from: /Home/Song/32
 id: 32
 title: Going Crazy
 artist: Kraedt
