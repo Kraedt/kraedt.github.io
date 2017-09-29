@@ -17,9 +17,11 @@ layout: default
             <h3>{{page.artist}}</h3>
         </td>
     </tr>
+    {% if page.downloadable %}
     <tr>
         <td><button class="btn-download" type="button" onClick="javascript:location.href = '{{ site.download-site }}{{ page.id }}';" />DOWNLOAD</button></td>
     </tr>
+    {% endif %}
     <tr>
         <td>
             {% if page.buy-able %}
