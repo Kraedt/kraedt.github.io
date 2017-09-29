@@ -1,16 +1,20 @@
 /*<editor-fold desc="Base">*/
 
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 body {
     background: url("../assets/images/background.jpg") black no-repeat fixed;
-    background-size: 100%;
-    background-position: 0% 50%;
+    background-size: cover;
+    background-position: center center;
     color: white;
     font-family: Chapaza, serif;
 }
 
 .content-window {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 15px 15px;
     background: rgba(0, 0, 0, 0.7);
     border: solid #FF9A01;
     border-radius: 10px;
@@ -18,20 +22,27 @@ body {
 }
 
 .body-content {
-    min-height: calc(100vh - 280px);
-    margin: 0 16em 0 16em;
+    min-height: calc(100vh - 340px);
+    margin: 0 auto;
+    min-width: 20%;
+    max-width: 65%;
     padding-bottom: 40px;
-    font-family: Helvetica, serif;
+    font-family: Montserrat, sans-serif;
 }
 
 @font-face {
     font-family: Chapaza;
-    src: url('../assets/fonts/Chapaza.ttf');
+    src: url('/assets/fonts/Chapaza.ttf');
 }
 
 @font-face {
     font-family: Leon;
-    src: url('../assets/fonts/Leon-Regular_TRIAL.ttf');
+    src: url('/assets/fonts/Leon-Regular_TRIAL.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('/assets/fonts/Montserrat-Regular.ttf')
 }
 
 ul {
@@ -103,15 +114,15 @@ p {
 
 .navbar ul, .navbar li {
     display: inline;
-    padding: 0 1.5em 0 1.5em;
+    padding: 0 1.3em 0 1.3em;
 }
 
 .header .sm {
-    padding: 0 0.3em 0 0.3em;
+    padding: 0 0.2em 0 0.2em;
 }
 
 .header .br {
-    padding-left: 1em;
+    padding-left: 0.8em;
 }
 
 .sm img {
@@ -166,7 +177,7 @@ footer {
     text-align: center;
     color: black;
     font-size: 1.2em;
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
     font-style: italic;
     font-weight: bold;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
@@ -187,10 +198,12 @@ footer a:focus {
 
 /*<editor-fold desc='Music'>*/
 
-.music-page table, .music-page td {
+.music-page {
     width: 100%;
-    table-layout: auto;
-    border-top: 1px solid white;
+}
+
+.music-page td {
+    border-top: 1px inset white;
 }
 
 .song-page, .song-page td {

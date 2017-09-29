@@ -13,3 +13,11 @@
 .links {
     background: blue;
 }
+
+body {
+    background: red;
+}
+
+.header a {
+    background: lime;
+}
