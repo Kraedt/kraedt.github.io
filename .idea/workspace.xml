@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1f4b999-cd61-48b4-a372-70c43ad10d84" name="Default" comment="Update config">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/ext-link.html" afterPath="$PROJECT_DIR$/_includes/ext-link.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Links/amazon.png" afterPath="$PROJECT_DIR$/assets/images/links/amazon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Links/beatport.png" afterPath="$PROJECT_DIR$/assets/images/links/beatport.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Links/direct.png" afterPath="$PROJECT_DIR$/assets/images/links/direct.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Links/google.png" afterPath="$PROJECT_DIR$/assets/images/links/google.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Links/itunes.png" afterPath="$PROJECT_DIR$/assets/images/links/itunes.png" />
-    </list>
+    <list default="true" id="e1f4b999-cd61-48b4-a372-70c43ad10d84" name="Default" comment="Update config" />
     <ignored path="kraedt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -348,28 +341,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="links" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraedt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraedt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -691,31 +662,6 @@
         <state vertical-scroll-proportion="-0.9622642">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/links/amazon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/links/direct.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/links/google.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/links/itunes.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/links/beatport.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/logo.png">
