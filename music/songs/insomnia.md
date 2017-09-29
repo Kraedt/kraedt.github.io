@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/25
 id: 25
 title: Insomnia
 artist: Kraedt

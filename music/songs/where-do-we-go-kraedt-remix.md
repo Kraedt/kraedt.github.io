@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/16
 id: 16
 title: Where Do We Go (Kraedt Remix)
 artist: Ben Hennessy ft. 3PM

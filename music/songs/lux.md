@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/2
 id: 2
 title: Lux
 artist: Kraedt

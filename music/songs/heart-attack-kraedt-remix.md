@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/12
 id: 12
 title: Heart Attack (Kraedt Remix)
 artist: Archie feat. Crywolf

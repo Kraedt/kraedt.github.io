@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/26
 id: 26
 title: Specter
 artist: Kraedt

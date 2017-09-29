@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/31
 id: 31
 title: White Lies (Kraedt Remix)
 artist: Vicetone ft. Chloe Angelides

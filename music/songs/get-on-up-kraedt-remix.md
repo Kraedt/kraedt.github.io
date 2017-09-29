@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/17
 id: 17
 title: Get On Up (Kraedt Remix)
 artist: Jauz x Pegboard Nerds

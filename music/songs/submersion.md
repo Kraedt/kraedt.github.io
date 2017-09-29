@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/20
 id: 20
 title: Submersion
 artist: Kraedt

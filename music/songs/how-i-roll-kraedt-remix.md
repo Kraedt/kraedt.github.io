@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/6
 id: 6
 title: How I Roll (Kraedt Remix)
 artist: Savant

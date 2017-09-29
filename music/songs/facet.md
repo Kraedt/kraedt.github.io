@@ -1,6 +1,7 @@
 ---
 layout: song
-id: 3
+redirect_from: /home/song/4
+id: 4
 title: Facet
 artist: Kraedt & Rayzer
 genre: Electro House

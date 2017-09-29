@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/33
 id: 33
 title: What You Got
 artist: Third Digit & Kraedt

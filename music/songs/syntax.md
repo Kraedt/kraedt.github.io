@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/1
 id: 1
 title: Syntax
 artist: Kraedt

@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/5
 id: 5
 title: Isometric
 artist: Kraedt

@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/19
 id: 19
 title: Lene
 artist: Kraedt & Age Of Vinyl

@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/18
 id: 18
 title: Brink (VIP)
 artist: Kraedt

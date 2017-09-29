@@ -1,5 +1,6 @@
 ---
 layout: song
+redirect_from: /home/song/10
 id: 10
 title: Blackout
 artist: Kraedt
