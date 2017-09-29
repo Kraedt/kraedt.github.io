@@ -5,7 +5,11 @@ layout: default
 <h2><a href="/music">See More Music</a></h2>
 <table class="song-page">
     <tr>
-        <td><img src="/assets/images/songs/{{page.image}}"/></td>
+        {% assign image-url = page.image %}
+        {% if page.image == nil %}
+        {% assign image-url = 'no-image.jpg' %}
+        {% endif %}
+        <td><img src="/assets/images/songs/{{ image-url }}"/></td>
     </tr>
     <tr>
         <td>
@@ -28,6 +32,13 @@ layout: default
         </td>
     </tr>
     <tr>
-        <td>License Information</td>
+        <td>
+            <h3>License Information:</h3>
+            {% assign license-info = site.data.license | where:'id',page.license %}
+            <p>{{ license-info[0].desc }}</p>
+            {% if license-info[0].info-url != nil %}
+            <a href="{{ license-info[0].info-url }}" target="_blank">More Info</a>
+            {% endif %}
+        </td>
     </tr>
 </table>

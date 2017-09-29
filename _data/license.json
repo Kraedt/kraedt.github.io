@@ -1,0 +1,40 @@
+[
+  {
+    "id" : 1,
+    "name" : "Creative Commons",
+    "desc" : "This track was released under Creative Commons and can be used in any content where credit is given.",
+    "level" : 1
+  },
+  {
+    "id" : 2,
+    "name" : "Unofficial Remix",
+    "desc" : "This track is potentially under strict licensing and unsafe to use in any content, as it is an unofficial remix of a copyrighted song.",
+    "level" : 3
+  },
+  {
+    "id" : 3,
+    "name" : "Unsafe",
+    "desc" : "This track was released under a potentially non-content-producer-friendly license and is unsafe for use in any content.",
+    "level" : 3
+  },
+  {
+    "id" : 4,
+    "name" : "Wolf Beats CC",
+    "desc" : "This track was released under Creative Commons (or similar) and can be used in any content where credit is given.",
+    "info-url" : "http://www.wolfbeatsmedia.com/copyright.html",
+    "level" : 1
+  },
+  {
+    "id" : 5,
+    "name" : "THN License",
+    "desc" : "This track was released under a potentially non-content-producer-friendly license, but may be safe to use in content under certain circumstances.",
+    "info-url" : "http://tryhardninja.com/MusicUsageTerms",
+    "level" : 2
+  },
+  {
+    "id" : 6,
+    "name" : "None",
+    "desc" : "There is no current license information for this track.",
+    "level" : 3
+  }
+]

@@ -94,13 +94,14 @@ p {
 .navbar {
     text-decoration: none;
     margin-top: -0.6em;
+    overflow: hidden;
 }
 
 .navbar-shadow {
     position: absolute;
     margin-top: -8px;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-    width: 100%;
+    width: 150%;
     height: 95px;
     border: none;
     z-index: -1;
@@ -122,7 +123,7 @@ p {
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1013px) {
     .navbar a.icon {
         position: fixed;
         top: 10px;
@@ -151,15 +152,16 @@ p {
 
     .logo img {
         width: 70%;
+        max-width: 50%;
     }
 
     .mobile-warning:after {
         color: red;
-        content: "WARNING: This page is not compatible with your device. It is still functional but would look better on a bigger screen.";
+        content: "WARNING: This website is not completely mobile-compatible. While it's still entirely functional, keep in mind that it might not look very pretty.";
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1013px) {
     .navbar li a {
         display: inline;
     }

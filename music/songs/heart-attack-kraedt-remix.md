@@ -1,0 +1,15 @@
+---
+layout: song
+id: 12
+title: Heart Attack (Kraedt Remix)
+artist: Archie feat. Crywolf
+genre: Melbourne Bounce
+image: Heart Attack (Kraedt Remix).jpg
+buy-able: false
+downloadable: true
+itunes:
+beatport:
+gplay:
+amazon:
+license: 2
+---

@@ -2,7 +2,7 @@
 
 <script>
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function myFunction() {
+    function responsiveNav() {
         var x = document.getElementById("nav");
         if (x.className === "navbar") {
             x.className += " responsive";
@@ -19,7 +19,7 @@
             <li><a href="/" class="{%if page.url == '/'%}active{%endif%}">HOME</a></li>
             <li><a href="/music" class="{%if page.url == '/music/'%}active{%endif%}">MUSIC</a></li>
             <li><a href="/merch" class="{%if page.url == '/merch/'%}active{%endif%}">MERCH</a></li>
-            <li><a href="{{site.contact}}">CONTACT</a></li>
+            <li><a href="/contact" class="{%if page.url == '/contact/'%}active{%endif%}">CONTACT</a></li>
             <li class="br"></li>
             <li class="sm"><a href="http://soundcloud.com/kraedt" title="Soundcloud" target="_blank"><img
                     src="/assets/images/soundcloud_icon.png"></a></li>
@@ -35,9 +35,9 @@
                     src="/assets/images/twitter_icon.png"></a></li>
             <li class="sm"><a href="http://instagram.com/kraedt" title="Instagram" target="_blank"><img
                     src="/assets/images/instagram_icon.png"></a></li>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a>
         </ul>
     </div>
-    <div class="logo"><img src="../assets/images/logo.png"/></div>
+    <div class="logo"><img src="/assets/images/logo.png"/></div>
 </div>
 </html>
