@@ -8,7 +8,7 @@ genre: Progressive House
 image: GoingCrazy.jpg
 buy-able: true
 downloadable: true
-yt-id: Cc2KPumhNSk
+yt-id: pjaHEgIlYhg
 itunes: https://itunes.apple.com/us/album/going-crazy-single/id1281624414
 beatport:
 gplay: https://play.google.com/store/music/album/Kraedt_Going_Crazy?id=Bhppqubtysedrv5dtgfqzx34nda

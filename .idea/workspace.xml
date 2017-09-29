@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f4b999-cd61-48b4-a372-70c43ad10d84" name="Default" comment="Update config">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/song-embed.html" afterPath="$PROJECT_DIR$/_includes/song-embed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/going-crazy.md" afterPath="$PROJECT_DIR$/music/songs/going-crazy.md" />
     </list>
     <ignored path="kraedt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,54 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="submersion-vip.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/songs/submersion-vip.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.039397452">
-                <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="syntax.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/songs/syntax.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.039397452">
-                <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="what-you-got.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/songs/what-you-got.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -240,7 +193,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find-the-pieces-kraedt-remix.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="find-the-pieces-kraedt-remix.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -257,6 +210,40 @@
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="0.13789108">
                 <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="song-embed.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/song-embed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="going-crazy.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/music/songs/going-crazy.md">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.15758981">
+                <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -283,7 +270,6 @@
         <option value="$PROJECT_DIR$/_data/license.json" />
         <option value="$PROJECT_DIR$/music/songs/Lene.md" />
         <option value="$PROJECT_DIR$/music/songs/_template.md" />
-        <option value="$PROJECT_DIR$/_includes/song-embed.html" />
         <option value="$PROJECT_DIR$/_layouts/song.html" />
         <option value="$PROJECT_DIR$/_layouts/contact.html" />
         <option value="$PROJECT_DIR$/contact.md" />
@@ -306,7 +292,6 @@
         <option value="$PROJECT_DIR$/music/songs/facet.md" />
         <option value="$PROJECT_DIR$/music/songs/finite.md" />
         <option value="$PROJECT_DIR$/music/songs/get-on-up-kraedt-remix.md" />
-        <option value="$PROJECT_DIR$/music/songs/going-crazy.md" />
         <option value="$PROJECT_DIR$/music/songs/heart-attack-kraedt-remix.md" />
         <option value="$PROJECT_DIR$/music/songs/homebound.md" />
         <option value="$PROJECT_DIR$/music/songs/how-i-roll-kraedt-remix.md" />
@@ -330,6 +315,8 @@
         <option value="$PROJECT_DIR$/music/songs/you-can-find-it.md" />
         <option value="$PROJECT_DIR$/music/songs/zero-gravity.md" />
         <option value="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" />
+        <option value="$PROJECT_DIR$/_includes/song-embed.html" />
+        <option value="$PROJECT_DIR$/music/songs/going-crazy.md" />
       </list>
     </option>
   </component>
@@ -404,58 +391,22 @@
               <option name="myItemId" value="music" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraedt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraedt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraedt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraedt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraedt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraedt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="songs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kraedt.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kraedt.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -638,17 +589,6 @@
         <state vertical-scroll-proportion="-17.0">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/song-embed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#button#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,28 +948,6 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.039397452">
-            <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/songs/going-crazy.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.039397452">
             <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             <folding />
@@ -1560,6 +1478,36 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.13789108">
             <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/song-embed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/songs/going-crazy.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.15758981">
+            <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
