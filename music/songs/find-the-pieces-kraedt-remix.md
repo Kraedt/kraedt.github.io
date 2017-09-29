@@ -5,7 +5,7 @@ id: 22
 title: Find The Pieces (Kraedt Remix)
 artist: Tryhardninja
 genre: Dubstep
-image:
+image: Find The Pieces Remix
 buy-able: true
 downloadable: false
 yt-id: ifSwMU9m4Xk

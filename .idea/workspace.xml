@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f4b999-cd61-48b4-a372-70c43ad10d84" name="Default" comment="Update config">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/blackout.md" afterPath="$PROJECT_DIR$/music/songs/blackout.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/boxcutter.md" afterPath="$PROJECT_DIR$/music/songs/boxcutter.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/brink-vip.md" afterPath="$PROJECT_DIR$/music/songs/brink-vip.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/brink.md" afterPath="$PROJECT_DIR$/music/songs/brink.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/cloud-surfing.md" afterPath="$PROJECT_DIR$/music/songs/cloud-surfing.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/crate.md" afterPath="$PROJECT_DIR$/music/songs/crate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/emerald.md" afterPath="$PROJECT_DIR$/music/songs/emerald.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/facet.md" afterPath="$PROJECT_DIR$/music/songs/facet.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/finite.md" afterPath="$PROJECT_DIR$/music/songs/finite.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/get-on-up-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/get-on-up-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/going-crazy.md" afterPath="$PROJECT_DIR$/music/songs/going-crazy.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/heart-attack-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/heart-attack-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/homebound.md" afterPath="$PROJECT_DIR$/music/songs/homebound.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/how-i-roll-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/how-i-roll-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/insomnia.md" afterPath="$PROJECT_DIR$/music/songs/insomnia.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/isometric.md" afterPath="$PROJECT_DIR$/music/songs/isometric.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/levitate.md" afterPath="$PROJECT_DIR$/music/songs/levitate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/life-at-balance-kraedt-edit.md" afterPath="$PROJECT_DIR$/music/songs/life-at-balance-kraedt-edit.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/loot.md" afterPath="$PROJECT_DIR$/music/songs/loot.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/lux.md" afterPath="$PROJECT_DIR$/music/songs/lux.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/mystic.md" afterPath="$PROJECT_DIR$/music/songs/mystic.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/pyromania.md" afterPath="$PROJECT_DIR$/music/songs/pyromania.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/specter.md" afterPath="$PROJECT_DIR$/music/songs/specter.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/storm-clouds.md" afterPath="$PROJECT_DIR$/music/songs/storm-clouds.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/submersion-vip.md" afterPath="$PROJECT_DIR$/music/songs/submersion-vip.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/submersion.md" afterPath="$PROJECT_DIR$/music/songs/submersion.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/syntax.md" afterPath="$PROJECT_DIR$/music/songs/syntax.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/what-you-got.md" afterPath="$PROJECT_DIR$/music/songs/what-you-got.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/where-do-we-go-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/where-do-we-go-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/white-lies-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/white-lies-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/you-can-find-it.md" afterPath="$PROJECT_DIR$/music/songs/you-can-find-it.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/zero-gravity.md" afterPath="$PROJECT_DIR$/music/songs/zero-gravity.md" />
     </list>
     <ignored path="kraedt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,30 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="submersion.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/songs/submersion.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.039397452">
-                <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="submersion-vip.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/songs/submersion-vip.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -272,7 +216,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lene.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lene.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/songs/lene.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -289,6 +233,30 @@
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="0.31517962">
                 <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find-the-pieces-kraedt-remix.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.11819235">
+                <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -336,7 +304,6 @@
         <option value="$PROJECT_DIR$/music/songs/crate.md" />
         <option value="$PROJECT_DIR$/music/songs/emerald.md" />
         <option value="$PROJECT_DIR$/music/songs/facet.md" />
-        <option value="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" />
         <option value="$PROJECT_DIR$/music/songs/finite.md" />
         <option value="$PROJECT_DIR$/music/songs/get-on-up-kraedt-remix.md" />
         <option value="$PROJECT_DIR$/music/songs/going-crazy.md" />
@@ -362,6 +329,7 @@
         <option value="$PROJECT_DIR$/music/songs/white-lies-kraedt-remix.md" />
         <option value="$PROJECT_DIR$/music/songs/you-can-find-it.md" />
         <option value="$PROJECT_DIR$/music/songs/zero-gravity.md" />
+        <option value="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" />
       </list>
     </option>
   </component>
@@ -434,10 +402,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="music" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="songs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,10 +536,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -962,28 +926,6 @@
         <state split_layout="SPLIT">
           <first_editor vertical-scroll-proportion="0.039397452">
             <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.039397452">
-            <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1556,6 +1498,28 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.31517962">
             <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.11819235">
+            <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
