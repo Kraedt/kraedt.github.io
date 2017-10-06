@@ -13,5 +13,6 @@ itunes: https://itunes.apple.com/us/album/what-you-got-single/id1279566158
 beatport:
 gplay: https://play.google.com/store/music/album/Third_Digit_Kraedt_What_You_Got?id=Bxxsjyfgmang5bva36dsvn4phry
 amazon: https://www.amazon.com/What-You-Third-Digit-Kraedt/dp/B075DQVJR4/
+spotify: https://open.spotify.com/album/0M1Bib0ww82etaysdLGM3i
 license: 3
 ---

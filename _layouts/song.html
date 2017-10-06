@@ -42,6 +42,10 @@ layout: default
             {% include ext-link.html url=page.gplay title='Google Play' img='google' %}
             {% include ext-link.html url=page.amazon title='iTunes' img='amazon' %}
             {% endif %}
+            {% if page.spotify != nil %}
+            <p>Stream:</p>
+            {% include ext-link.html url=page.spotify title='Spotify' img='spotify' %}
+            {% endif %}
         </td>
     </tr>
     <tr>

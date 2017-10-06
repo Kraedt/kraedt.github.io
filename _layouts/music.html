@@ -44,6 +44,7 @@ layout: default
                 {% assign download-url = site.download-site-dl | append: song.id %}
                 {% include ext-link.html url=download-url title='Direct Download' img='direct' %}
                 {% endif %}
+                {% include ext-link.html url=song.spotify title='Spotify' img='spotify' %}
                 {% include ext-link.html url=song.itunes title='iTunes' img='itunes' %}
                 {% include ext-link.html url=song.beatport title='Beatport' img='beatport' %}
                 {% include ext-link.html url=song.gplay title='Google Play' img='google' %}
