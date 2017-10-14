@@ -7,7 +7,7 @@ genre: Complextro
 image: Dimensions.jpg
 buy-able: true
 downloadable: true
-yt-id: https://youtu.be/LnWrQoymtk0
+yt-id: LnWrQoymtk0
 itunes: https://itunes.apple.com/us/album/dimensions-single/id1294048420
 beatport:
 gplay: https://play.google.com/store/music/album/Kraedt_Dimensions?id=B5gftmllonzmpdsrk7jybvu2mpq
