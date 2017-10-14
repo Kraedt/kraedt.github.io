@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1f4b999-cd61-48b4-a372-70c43ad10d84" name="Default" comment="Update config">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/song-embed.html" afterPath="$PROJECT_DIR$/_includes/song-embed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/music.html" afterPath="$PROJECT_DIR$/_layouts/music.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/song.html" afterPath="$PROJECT_DIR$/_layouts/song.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/blackout.md" afterPath="$PROJECT_DIR$/music/songs/blackout.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/boxcutter.md" afterPath="$PROJECT_DIR$/music/songs/boxcutter.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/cloud-surfing.md" afterPath="$PROJECT_DIR$/music/songs/cloud-surfing.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/emerald.md" afterPath="$PROJECT_DIR$/music/songs/emerald.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" afterPath="$PROJECT_DIR$/music/songs/find-the-pieces-kraedt-remix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/going-crazy.md" afterPath="$PROJECT_DIR$/music/songs/going-crazy.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/homebound.md" afterPath="$PROJECT_DIR$/music/songs/homebound.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/insomnia.md" afterPath="$PROJECT_DIR$/music/songs/insomnia.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/isometric.md" afterPath="$PROJECT_DIR$/music/songs/isometric.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/levitate.md" afterPath="$PROJECT_DIR$/music/songs/levitate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/loot.md" afterPath="$PROJECT_DIR$/music/songs/loot.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/lux.md" afterPath="$PROJECT_DIR$/music/songs/lux.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/mystic.md" afterPath="$PROJECT_DIR$/music/songs/mystic.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/pyromania.md" afterPath="$PROJECT_DIR$/music/songs/pyromania.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/specter.md" afterPath="$PROJECT_DIR$/music/songs/specter.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/storm-clouds.md" afterPath="$PROJECT_DIR$/music/songs/storm-clouds.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/submersion.md" afterPath="$PROJECT_DIR$/music/songs/submersion.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/syntax.md" afterPath="$PROJECT_DIR$/music/songs/syntax.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/what-you-got.md" afterPath="$PROJECT_DIR$/music/songs/what-you-got.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/you-can-find-it.md" afterPath="$PROJECT_DIR$/music/songs/you-can-find-it.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/songs/zero-gravity.md" afterPath="$PROJECT_DIR$/music/songs/zero-gravity.md" />
-    </list>
+    <list default="true" id="e1f4b999-cd61-48b4-a372-70c43ad10d84" name="Default" comment="Update config" />
     <ignored path="kraedt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -76,8 +50,8 @@
         <entry file="file://$PROJECT_DIR$/music/songs/lene.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.33487833">
-                <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <first_editor vertical-scroll-proportion="0.078794904">
+                <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -1505,8 +1479,8 @@
     <entry file="file://$PROJECT_DIR$/music/songs/lene.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.33487833">
-            <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <first_editor vertical-scroll-proportion="0.078794904">
+            <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />
