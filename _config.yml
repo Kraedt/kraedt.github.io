@@ -18,7 +18,7 @@ email: kraedt@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 
 # My shit
-latest-spotify: "https://open.spotify.com/embed?uri=spotify:track:5lTHsg3nraGFq1ffczWsvZ"
+latest-spotify: "https://open.spotify.com/track/1moIdPttdxgeQpdIyJ2cvH"
 download-site: "http://download.kraedt.com/"
 download-site-dl: "http://download.kraedt.com/download?songid="
 
