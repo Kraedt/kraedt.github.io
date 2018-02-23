@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<h2><a href="/music">See More Music</a></h2>
+
+<table class="song-page">
+    <tr><td><h3>Album / EP</h3></td></tr>
+    <tr>
+        {% assign image-url = page.image %}
+        {% if page.image == nil %}
+        {% assign image-url = 'no-image.jpg' %}
+        {% endif %}
+        <td><img src="/assets/images/songs/{{ image-url }}"/></td>
+    </tr>
+    <tr>
+        <td>
+            <h2>{{page.title}}</h2>
+        </td>
+    </tr>
+    {% assign sorted = site.pages | sort:'id' %}
+    {% for song in sorted %}
+        {% if song.layout == "song" and page.songs contains song.id %}
+            <tr>
+                <td>
+                    <a class="inline-a" href={{song.url}}><h3>{{song.title}}</h3></a>
+
+                    {% if page.downloadable %}
+                        <button class="btn-download" type="button"
+                                onClick="javascript:location.href = '{{ site.download-site-dl }}{{ song.id }}';"/>
+                        DOWNLOAD</button>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr><td><br/></td></tr>
+        {% endif %}
+    {% endfor %}
+    <tr><td><br/></td></tr>
+    <tr>
+        <td>
+            {% if page.buy-able %}
+            <p>Buy:</p>
+            {% include ext-link.html url=page.itunes title='iTunes' img='itunes' %}
+            {% include ext-link.html url=page.beatport title='Beatport' img='beatport' %}
+            {% include ext-link.html url=page.gplay title='Google Play' img='google' %}
+            {% include ext-link.html url=page.amazon title='iTunes' img='amazon' %}
+            {% endif %}
+            {% if page.spotify != nil %}
+            <p>Stream:</p>
+            {% include ext-link.html url=page.spotify title='Spotify' img='spotify' %}
+            {% endif %}
+        </td>
+    </tr>
+</table>

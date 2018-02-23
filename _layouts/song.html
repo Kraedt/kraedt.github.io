@@ -33,6 +33,15 @@ layout: default
             DOWNLOAD</button></td>
     </tr>
     {% endif %}
+
+    {% for album in site.pages %}
+        {% if album.layout == "album" and album.songs contains page.id %}
+        <tr><td>
+            <h3>Included in: <a href="{{album.url}}">{{album.title}}</a></h3>
+        </td></tr>
+        {% endif %}
+    {% endfor %}
+
     <tr>
         <td>
             {% if page.buy-able %}
