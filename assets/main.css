@@ -21,6 +21,9 @@ body {
     box-shadow: 14px 14px 28px rgba(0, 0, 0, 0.8);
 }
 
+.content-window .body-content p {
+    font-size: 1em;
+}
 
 .body-content {
     min-height: calc(100vh - 340px);
@@ -70,6 +73,10 @@ form input {
 form .button {
     width: auto;
     float: right;
+}
+
+.contact-form {
+    padding: 2px;
 }
 
 .message {
@@ -125,6 +132,10 @@ p {
     font-size: 1em;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .image-prop {
     width: 100px;
     height: 100px;
@@ -159,6 +170,11 @@ p {
     display: table;
     margin: 0 auto;
     padding-top: 1em;
+}
+
+.navbar li {
+    font-size: 1.1em;
+    font-family: Leon, sans-serif;
 }
 
 .navbar ul, .navbar li {
@@ -272,6 +288,33 @@ p {
 }
 
 /*</editor-fold>*/
+
+.bio-container{
+    display: flex;
+}
+
+.bio-text {
+    width: 50%;
+    margin-right: 7px;
+}
+
+.spotify-blurb {
+    flex: 1;
+    margin-left: 7px;
+}
+
+.vertical-divider {
+    border-left: 2px solid rgba(200,200,200,0.3);
+    margin-left: 2px;
+    margin-right: 4px;
+}
+
+.album-carousel {
+    width: 250px;
+    height: 250px;
+    left: 50%;
+    margin-left: -125px;
+}
 
 /*<editor-fold desc="Footer">*/
 

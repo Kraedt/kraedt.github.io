@@ -23,10 +23,10 @@ layout: default
         {% if song.layout == "song" and page.songs contains song.id %}
             <tr>
                 <td>
-                    <a class="inline-a" href={{song.url}}><h3>{{song.title}}</h3></a>
+                    <h3><a class="inline-a" href={{song.url}}>{{song.title}}</a></h3>
 
                     {% if page.downloadable %}
-                        <button class="btn-download" type="button"
+                        <button class="btn btn-lg btn-warning" type="button"
                                 onClick="javascript:location.href = '{{ site.download-site-dl }}{{ song.id }}';"/>
                         DOWNLOAD</button>
                     {% endif %}
@@ -40,15 +40,18 @@ layout: default
         <td>
             {% if page.buy-able %}
             <p>Buy:</p>
-            {% include ext-link.html url=page.itunes title='iTunes' img='itunes' %}
-            {% include ext-link.html url=page.beatport title='Beatport' img='beatport' %}
-            {% include ext-link.html url=page.gplay title='Google Play' img='google' %}
-            {% include ext-link.html url=page.amazon title='iTunes' img='amazon' %}
+            {% include ext-link.jekyll url=page.itunes title='iTunes' img='itunes' %}
+            {% include ext-link.jekyll url=page.beatport title='Beatport' img='beatport' %}
+            {% include ext-link.jekyll url=page.gplay title='Google Play' img='google' %}
+            {% include ext-link.jekyll url=page.amazon title='iTunes' img='amazon' %}
             {% endif %}
             {% if page.spotify != nil %}
+            <br/>
+            <br/>            
             <p>Stream:</p>
-            {% include ext-link.html url=page.spotify title='Spotify' img='spotify' %}
+            {% include ext-link.jekyll url=page.spotify title='Spotify' img='spotify' %}
             {% endif %}
+            <br/>            
         </td>
     </tr>
 </table>

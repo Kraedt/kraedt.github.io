@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h2>Contact</h2>
+{{ content }}
+<p class="mobile-warning"></p>
+
+<div class="form-group contact-form">
+    <form method="post" action="{{ site.download-site }}contact">
+        <input class="form-control" type="text" name="name" maxlength="40" placeholder="Name"/><br/>
+        <input class="form-control" type="email" name="email" placeholder="Email Address" required/><br/>
+        <textarea class="form-control" name="message" draggable="false" rows="6" placeholder="Message" maxlength="360" required></textarea><br/>
+        <input class="button btn btn-warning" type="submit" value="Submit"/>
+    </form>
+</div>
+
+<br />
+<h2>Form not working? Email me directly at:</h2>
+<h3>kraedt@gmail.com</h3>

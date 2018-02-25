@@ -15,12 +15,14 @@ layout: default
         <td>
             <h2>{{page.title}}</h2>
             <h3>{{page.artist}}</h3>
+            <br/>
         </td>
     </tr>
     <tr>
         <td>
             {% if page.yt-id != nil %}
-            {% include song-embed.html yt-id=page.yt-id %}
+            {% include song-embed.jekyll yt-id=page.yt-id %}
+            <br/>
             {% endif %}
         </td>
     </tr>
@@ -28,9 +30,12 @@ layout: default
     {% if page.downloadable %}
     <tr>
         <td>
-            <button class="btn-download" type="button"
+            <button class="btn btn-lg btn-warning" type="button"
                     onClick="javascript:location.href = '{{ site.download-site-dl }}{{ page.id }}';"/>
-            DOWNLOAD</button></td>
+            DOWNLOAD</button>
+            <br/>            
+            <br/>
+        </td>
     </tr>
     {% endif %}
 
@@ -38,6 +43,7 @@ layout: default
         {% if album.layout == "album" and album.songs contains page.id %}
         <tr><td>
             <h3>Included in: <a href="{{album.url}}">{{album.title}}</a></h3>
+            <br/>
         </td></tr>
         {% endif %}
     {% endfor %}
@@ -46,14 +52,17 @@ layout: default
         <td>
             {% if page.buy-able %}
             <p>Buy the song:</p>
-            {% include ext-link.html url=page.itunes title='iTunes' img='itunes' %}
-            {% include ext-link.html url=page.beatport title='Beatport' img='beatport' %}
-            {% include ext-link.html url=page.gplay title='Google Play' img='google' %}
-            {% include ext-link.html url=page.amazon title='iTunes' img='amazon' %}
+            {% include ext-link.jekyll url=page.itunes title='iTunes' img='itunes' %}
+            {% include ext-link.jekyll url=page.beatport title='Beatport' img='beatport' %}
+            {% include ext-link.jekyll url=page.gplay title='Google Play' img='google' %}
+            {% include ext-link.jekyll url=page.amazon title='iTunes' img='amazon' %}
             {% endif %}
             {% if page.spotify != nil %}
+            <br/>
+            <br/>
             <p>Stream:</p>
-            {% include ext-link.html url=page.spotify title='Spotify' img='spotify' %}
+            {% include ext-link.jekyll url=page.spotify title='Spotify' img='spotify' %}
+            <br/>
             {% endif %}
         </td>
     </tr>
