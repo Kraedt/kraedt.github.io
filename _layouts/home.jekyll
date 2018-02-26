@@ -11,10 +11,10 @@ layout: default
 <div class="bio-container">
     <div class="bio-text">
         <p>
-        Chris, better known as Kraedt (pronounced 'Crate'), is an Electronic Dance Music producer from Wisconsin. He began
-        producing late 2010, and got serious about it sometime in 2011. Electro House, Progressive House, and Drum n' Bass
-        are his 'forte', with high energy as the main theme in most of his tracks. Starting fresh from an earlier alias,
-        Kraedt strives to drop the bass and have fun doing it!
+        Kraedt (pronounced 'crate') is an electronic music producer from Wisconsin, USA. Since late 2010, he has put together 
+        a fair number of original tracks and remixes spanning various genres and styles yet maintaining a unique and energetic 
+        sound. Kraedt’s music has been released on a handful of labels, self-released, and some even released under content-creator 
+        friendly licenses.
         </p>
 
         <h3 class="text-big text-center">Check out this <a href="/club1506-interview">interview I did with Club1506</a>!</h3>
@@ -22,28 +22,25 @@ layout: default
         <h3 class="text-center">Track Spotlight:</h3>
         <div id="spotlightCarousel" class="carousel slide album-carousel" data-ride="carousel">
             <!-- Indicators -->
-            {% comment %} 
             <ol class="carousel-indicators">
                 {% assign counter = 0 %}
+                {% assign active = " active" %}
+                {% for t1 in site.data.track-spotlight %}
+                    {% assign s = t1 | split:"/" | last %}
+                    {% for song in site.pages %}
+                        {% assign t2 = song.url | split:"/" | last | replace:".html","" %}
+                        {% if t1 == t2 %}
+                            {% if counter > 0 %}
+                                {% assign active = "" %}
+                            {% endif %}
 
+                            <li data-target="#spotlightCarousel" data-slide-to="{{counter}}" class="{{active}}"></li>
 
-
-                {% for song in site.pages %}
-                    {% if site.data.track-spotlight contains song.id %}
-                        {% if counter == 0 %}
-                            {% assign active = " active" %}
+                            {% assign counter = counter | plus: 1 %}
                         {% endif %}
-
-                        <li data-target="#spotlightCarousel" data-slide-to="{{counter}}" class="{{active}}"></li>
-
-                        {% assign counter = counter | plus: 1 %}
-                    {% endif %}
+                    {% endfor %}
                 {% endfor %}
-<!-- 
-                <li data-target="#spotlightCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#spotlightCarousel" data-slide-to="1"></li>
-                <li data-target="#spotlightCarousel" data-slide-to="2"></li> -->
-            </ol> {% endcomment %}
+            </ol>
             
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -66,36 +63,6 @@ layout: default
                         {% endif %}
                     {% endfor %}
                 {% endfor %}
-
-                {% comment %} {% for song in site.pages %}
-                    {% if site.data.track-spotlight contains song.id %}
-                        {% if counter == 0 %}
-                            {% assign active = " active" %}
-                        {% else %}
-                            {% assign active = "" %}
-                        {% endif %}
-
-                        <div class="item{{active}}">
-                            <a href="{{song.url}}"><img src="/assets/images/songs/{{song.image}}" alt="song.title"></a>
-                        </div>
-
-                        {% assign counter = counter | plus: 1 %}
-                    {% endif %}
-                {% endfor %} {% endcomment %}
-
-
-
-                <!-- <div class="item active">
-                <img src="/assets/images/songs/STF EP.jpg" alt="Los Angeles">
-                </div>
-            
-                <div class="item">
-                <img src="chicago.jpg" alt="Chicago">
-                </div>
-            
-                <div class="item">
-                <img src="ny.jpg" alt="New York">
-                </div> -->
             </div>
             
             <!-- Left and right controls -->
@@ -107,7 +74,7 @@ layout: default
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
             </a>
-            </div>
+        </div>
     </div>
 
     <div class="vertical-divider"></div>
