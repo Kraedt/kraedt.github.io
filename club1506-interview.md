@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: club1506-interview
 ---
 
 ## Club1506.com Interview with Kraedt:

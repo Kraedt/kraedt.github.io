@@ -316,6 +316,12 @@ p {
     margin-left: -125px;
 }
 
+.interview-container h1, 
+.interview-container h2, 
+.interview-container h3 {
+    color: #AAAAAA;
+}
+
 /*<editor-fold desc="Footer">*/
 
 footer {
