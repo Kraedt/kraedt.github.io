@@ -1,3 +1,4 @@
 {% if include.url != nil %}
-<a href="{{ include.url }}" title="{{ include.title }}" target="_blank"><img src="/assets/images/links/{{ include.img }}.png"/></a>
+<a {% if include.dl == true %} onclick="onDownloadRequest()" {% endif %} 
+    href="{{ include.url }}" title="{{ include.title }}" target="_blank"><img src="/assets/images/links/{{ include.img }}.png"/></a>
 {% endif %}

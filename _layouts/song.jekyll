@@ -2,7 +2,9 @@
 layout: default
 ---
 
+{% include wait-popup.html %}
 <h2><a href="/music">See More Music</a></h2>
+
 <table class="song-page">
     <tr>
         {% assign image-url = page.image %}
@@ -31,7 +33,7 @@ layout: default
     <tr>
         <td>
             <button class="btn btn-lg btn-warning" type="button"
-                    onClick="javascript:location.href = '{{ site.download-site-dl }}{{ page.id }}';"/>
+                    onClick="onDownloadRequest(); javascript:location.href = '{{ site.download-site-dl }}{{ page.id }}';"/>
             DOWNLOAD</button>
             <br/>            
             <br/>

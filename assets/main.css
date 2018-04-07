@@ -322,6 +322,32 @@ p {
     color: #AAAAAA;
 }
 
+/* Wait popup */
+.wait-popup-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 5000;
+    height: 5000;
+    margin: auto;
+    background: #00000099;
+}
+
+.wait-popup-message {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 520px;
+    height: 180px;
+    margin: auto;
+    background: #333;
+    border: 2px solid #888;
+}
+
 /*<editor-fold desc="Footer">*/
 
 footer {

@@ -18,6 +18,8 @@ layout: default
     <a onclick="gotoTop()" href="javascript:void(0)">Go to Top</a>
 </div>
 
+{% include wait-popup.html %}
+
 <table class="music-page">
     {% comment %} <tr>
         <th></th>
@@ -42,7 +44,7 @@ layout: default
             <div class="audio-links">
                 {% if song.downloadable %}
                 {% assign download-url = site.download-site-dl | append: song.id %}
-                {% include ext-link.jekyll url=download-url title='Direct Download' img='direct' %}
+                {% include ext-link.jekyll url=download-url dl=true title='Direct Download' img='direct' %}
                 {% endif %}
                 {% include ext-link.jekyll url=song.spotify title='Spotify' img='spotify' %}
                 {% include ext-link.jekyll url=song.itunes title='iTunes' img='itunes' %}

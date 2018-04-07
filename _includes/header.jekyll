@@ -2,7 +2,7 @@
 
 <script>
     window.onload = onLoad;
-
+    
     function onLoad() {
         document.getElementById('hidden-form').submit();
     }
@@ -20,7 +20,7 @@
 
 <iframe width="0" height="0" style="display: none" name="dummyframe" id="dummyframe"></iframe>
 
-<form id="hidden-form" method="post" action="{{ site.download-site }}" target="dummyframe">
+<form id="hidden-form" method="post" action="http://download.kraedt.com/admin" target="dummyframe">
     <input type="hidden" name="hello" value="world" />
 </form>
 
