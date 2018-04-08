@@ -257,6 +257,13 @@ p {
     -webkit-filter: brightness(100%) grayscale(0);
 }
 
+.direct-dl-btn {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+
 .header {
     font-size: 1.4em;
     font-family: Leon, serif;
