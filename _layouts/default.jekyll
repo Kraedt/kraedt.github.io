@@ -8,8 +8,9 @@
 {% include header.jekyll %}
 
 <main class="body-content" aria-label="Content">
-	<p class="error">Notice: This website is currently under host migration. Please note that features may be broken (i.e. no downloads available)</p>
     <div class="content-window">
+		<p class="error">Notice: This website is currently under host migration. Please note that features may be broken (i.e. no downloads available)</p>
+		
         {{ content }}
     </div>
 </main>
