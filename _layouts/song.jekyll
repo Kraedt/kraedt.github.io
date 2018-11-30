@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% include wait-popup.html %}
 <h2><a href="/music">See More Music</a></h2>
 
 <table class="song-page">

@@ -1,12 +1,6 @@
 <html>
 
 <script>
-    window.onload = onLoad;
-    
-    function onLoad() {
-        document.getElementById('hidden-form').submit();
-    }
-
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
     function responsiveNav() {
         var x = document.getElementById("nav");
@@ -17,8 +11,6 @@
         }
     }
 </script>
-
-<iframe width="0" height="0" style="display: none" name="dummyframe" id="dummyframe"></iframe>
 
 <div class="header">
     <div class="navbar-shadow"></div>
