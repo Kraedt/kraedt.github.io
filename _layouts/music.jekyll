@@ -43,8 +43,7 @@ layout: default
                 {% if song.downloadable %}
                 {% assign download-url = site.download-site-dl | append: song.id %}
                 {% comment %} {% include ext-link.jekyll url=download-url dl=true title='Direct Download' img='direct' %} {% endcomment %}
-                <button class="direct-dl-btn" type="button" javascript:location.href = '{{ download-url }}{{ page.id }}';"/>
-                <img src="/assets/images/links/direct.png"/></button>
+		<a class="direct-dl-btn" href="{{ download-url }}{{ page.id }}"><img src="/assets/images/links/direct.png"/></a>
                 {% endif %}
                 {% include ext-link.jekyll url=song.spotify title='Spotify' img='spotify' %}
                 {% include ext-link.jekyll url=song.itunes title='iTunes' img='itunes' %}
