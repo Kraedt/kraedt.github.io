@@ -26,8 +26,7 @@ layout: default
                     <h3><a class="inline-a" href={{song.url}}>{{song.title}}</a></h3>
 
                     {% if page.downloadable %}
-                        <button class="btn btn-lg btn-warning" type="button"
-                                onClick="onDownloadRequest(); javascript:location.href = '{{ site.download-site-dl }}{{ song.id }}';"/>
+                        <button class="btn btn-lg btn-warning" type="button" javascript:location.href = '{{ site.download-site-dl }}{{ song.id }}';"/>
                         DOWNLOAD</button>
                     {% endif %}
                 </td>

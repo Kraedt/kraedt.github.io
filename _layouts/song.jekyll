@@ -31,8 +31,7 @@ layout: default
     {% if page.downloadable %}
     <tr>
         <td>
-            <button class="btn btn-lg btn-warning" type="button"
-                    onClick="onDownloadRequest(); javascript:location.href = '{{ site.download-site-dl }}{{ page.id }}';"/>
+            <button class="btn btn-lg btn-warning" type="button" javascript:location.href = '{{ site.download-site-dl }}{{ page.id }}';"/>
             DOWNLOAD</button>
             <br/>            
             <br/>
