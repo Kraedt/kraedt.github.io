@@ -7,7 +7,7 @@ genre: Drum & Bass
 image: hypnotized.jpg
 buy-able: true
 downloadable: true
-yt-id:
+yt-id: 1d3K0xipSNg
 itunes: https://itunes.apple.com/us/album/hypnotized-single/1425296928
 beatport:
 gplay: https://play.google.com/store/music/album?id=Bqkwirj75pibij6avr7qtf3zfmi&tid=song-Tz3gwbztdtklytfnzfqskc3hs3e
