@@ -2,73 +2,102 @@
 layout: default
 ---
 
+<script src="/scripts/youtube-pop.js"></script>
+
 <h2><a href="/music">See More Music</a></h2>
 
 <table class="song-page">
+
+    <!-- Image -->
+
     <tr>
         {% assign image-url = page.image %}
         {% if page.image == nil %}
         {% assign image-url = 'no-image.jpg' %}
         {% endif %}
-        <td><img src="/assets/images/songs/{{ image-url }}"/></td>
+        <td>
+            <img src="/assets/images/songs/{{ image-url }}"/>
+        </td>
     </tr>
+
+    <!-- Artist and title -->
+
     <tr>
         <td>
             <h2>{{page.title}}</h2>
             <h3>{{page.artist}}</h3>
-            <br/>
         </td>
     </tr>
-    <tr>
-        <td>
-            {% if page.yt-id != nil %}
-            {% include song-embed.jekyll yt-id=page.yt-id %}
-            <br/>
-            {% endif %}
-        </td>
-    </tr>
-    <tr><td><br/></td></tr>
-    {% if page.downloadable %}
-    <tr>
-        <td>
-	<form action="{{ site.download-site-dl }}" method="POST">
-		<input type="hidden" name="id" value="{{ page.id }}" />
-		<a class="btn btn-lg btn-warning" href="#" onclick="this.parentNode.submit()">DOWNLOAD</a>
 
-	</form>
-            <br/>            
-            <br/>
-        </td>
-    </tr>
-    {% endif %}
-
-    {% for album in site.pages %}
-        {% if album.layout == "album" and album.songs contains page.id %}
-        <tr><td>
-            <h3>Included in: <a href="{{album.url}}">{{album.title}}</a></h3>
-            <br/>
-        </td></tr>
-        {% endif %}
-    {% endfor %}
+    <!-- Buy / stream links -->
 
     <tr>
         <td>
             {% if page.buy-able %}
-            <p>Buy the song:</p>
+            <h3>Buy the song:</h3>
             {% include ext-link.jekyll url=page.itunes title='iTunes' img='itunes' %}
             {% include ext-link.jekyll url=page.beatport title='Beatport' img='beatport' %}
             {% include ext-link.jekyll url=page.gplay title='Google Play' img='google' %}
             {% include ext-link.jekyll url=page.amazon title='iTunes' img='amazon' %}
             {% endif %}
-            {% if page.spotify != nil %}
-            <br/>
-            <br/>
-            <p>Stream:</p>
-            {% include ext-link.jekyll url=page.spotify title='Spotify' img='spotify' %}
-            <br/>
+            {% if page.spotify or page.yt-id %}
+                <h3>Stream:</h3>
+                {% if page.yt-id %}
+                    <a href="javascript:void(0)" onclick="toggleYoutubeEmbed()" target="_blank"><img src="/assets/images/links/youtube.png"/></a>
+                {% endif %}
+                {% if page.spotify %}
+                    {% include ext-link.jekyll url=page.spotify title='Spotify' img='spotify' %}
+                {% endif %}
+                <br/>
             {% endif %}
         </td>
     </tr>
+
+    <!-- Youtube embed -->
+
+    <tr>
+        <td>
+            {% if page.yt-id != nil %}
+            <div id="youtube-embed" style="display:none;">
+                <br/>
+                <br/>
+                {% include song-embed.jekyll yt-id=page.yt-id %}
+                <br/>
+                <br/>
+            </div>
+            {% endif %}
+            <br/>
+        </td>
+    </tr>
+
+    <!-- Download button -->
+
+    {% if page.downloadable %}
+    <tr>
+        <td>
+            <form action="{{ site.download-site-dl }}" method="POST">
+                <input type="hidden" name="id" value="{{ page.id }}" />
+                <a class="btn btn-lg btn-warning" href="#" onclick="this.parentNode.submit()">DOWNLOAD</a>
+            </form>
+            <br/>
+        </td>
+    </tr>
+    {% endif %}
+
+    <!-- Album link -->
+
+    {% for album in site.pages %}
+        {% if album.layout == "album" and album.songs contains page.id %}
+            <tr>
+                <td>
+                    <h3>Included in: <a href="{{album.url}}">{{album.title}}</a></h3>
+                </td>
+            </tr>
+        {% endif %}
+    {% endfor %}
+
+    <!-- License ifno -->
+
     <tr>
         <td>
             <h3>License Information:</h3>

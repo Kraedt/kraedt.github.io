@@ -18,6 +18,21 @@ layout: default
             <h2>{{page.title}}</h2>
         </td>
     </tr>
+    <tr>
+        <td>
+            {% if page.buy-able %}
+            <h3>Buy:</h3>
+            {% include ext-link.jekyll url=page.itunes title='iTunes' img='itunes' %}
+            {% include ext-link.jekyll url=page.beatport title='Beatport' img='beatport' %}
+            {% include ext-link.jekyll url=page.gplay title='Google Play' img='google' %}
+            {% include ext-link.jekyll url=page.amazon title='iTunes' img='amazon' %}
+            {% endif %}
+            {% if page.spotify != nil %}
+            <h3>Stream:</h3>
+            {% include ext-link.jekyll url=page.spotify title='Spotify' img='spotify' %}
+            {% endif %}
+        </td>
+    </tr>
     {% assign sorted = site.pages | sort:'id' %}
     {% for song in sorted %}
         {% if song.layout == "song" and page.songs contains song.id %}
@@ -37,23 +52,4 @@ layout: default
             <tr><td><br/></td></tr>
         {% endif %}
     {% endfor %}
-    <tr><td><br/></td></tr>
-    <tr>
-        <td>
-            {% if page.buy-able %}
-            <p>Buy:</p>
-            {% include ext-link.jekyll url=page.itunes title='iTunes' img='itunes' %}
-            {% include ext-link.jekyll url=page.beatport title='Beatport' img='beatport' %}
-            {% include ext-link.jekyll url=page.gplay title='Google Play' img='google' %}
-            {% include ext-link.jekyll url=page.amazon title='iTunes' img='amazon' %}
-            {% endif %}
-            {% if page.spotify != nil %}
-            <br/>
-            <br/>            
-            <p>Stream:</p>
-            {% include ext-link.jekyll url=page.spotify title='Spotify' img='spotify' %}
-            {% endif %}
-            <br/>            
-        </td>
-    </tr>
 </table>
