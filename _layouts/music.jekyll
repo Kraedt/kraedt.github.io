@@ -41,9 +41,11 @@ layout: default
         <td>
             <div class="audio-links">
                 {% if song.downloadable %}
-                {% assign download-url = site.download-site-dl | append: song.id %}
-                {% comment %} {% include ext-link.jekyll url=download-url dl=true title='Direct Download' img='direct' %} {% endcomment %}
-		<a class="direct-dl-btn" href="{{ download-url }}{{ page.id }}"><img src="/assets/images/links/direct.png"/></a>
+		<form id="dl-form-{{ song.id }}" action="{{ site.download-site-dl }}" method="POST">
+			<input type="hidden" name="id" value="{{ song.id }}" />
+
+		</form>
+		<a class="direct-dl-btn" href="#" onclick="document.getElementById('dl-form-{{ song.id }}').submit()"><img src="/assets/images/links/direct.png"/></a>
                 {% endif %}
                 {% include ext-link.jekyll url=song.spotify title='Spotify' img='spotify' %}
                 {% include ext-link.jekyll url=song.itunes title='iTunes' img='itunes' %}

@@ -22,8 +22,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 latest-spotify: "https://open.spotify.com/embed?uri=spotify:track:3Tjzew0UcMIS1dLvA3gdie"
 
 
-download-site: "http://download.kraedt.com/"
-download-site-dl: "http://download.kraedt.com/download/requestdownload/"
+download-site: "http://unbox.kraedt.com/"
+download-site-dl: "http://unbox.kraedt.com/download/request/"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kraedt.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
