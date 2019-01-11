@@ -1,7 +1,5 @@
 
 <script>
-    var receivedSuccess = false;
-
     $(document).ready(function() {
         $("#captcha-form").submit(function(e) {
             e.preventDefault();
@@ -16,7 +14,7 @@
                     console.log("Captcha verification successful. Auto-submitting " + captchaCompleteAutoForm + " form again.")
 
                     if (captchaCompleteAutoForm != ""){
-                        receivedSuccess = true;
+                        sessionStorage.setItem("receivedSuccess", true);
                         $(captchaCompleteAutoForm).submit();
                         toggleCaptchaPopup(false);
                     }

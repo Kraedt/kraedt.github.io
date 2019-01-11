@@ -8,7 +8,7 @@ function requestDownload(songId, dlUrl) {
 
 $(document).ready(function() {
     $("#dl-form").submit(function(e) {
-        if (receivedSuccess)
+        if (sessionStorage.getItem("receivedSuccess"))
             return true;
 
         e.preventDefault();
