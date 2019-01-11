@@ -3,17 +3,19 @@ var downloadUrl = "";
 function requestDownload(songId, dlUrl) {
     $("input[name='id']").val(songId);
     downloadUrl = dlUrl;
+
+    var clientId = getClientId();
+    $("input[name='clientId']").val(clientId);
+
     $("#dl-form").submit();
 }
 
 $(document).ready(function() {
     $("#dl-form").submit(function(e) {
-        if (sessionStorage.getItem("receivedSuccess"))
+        if (sessionStorage.getItem("receivedSuccess") === "true")
             return true;
 
         e.preventDefault();
-        var clientId = getClientId();
-        $("input[name='clientId']").val(clientId);
 
         captchaCompleteAutoForm = "#dl-form";
 
