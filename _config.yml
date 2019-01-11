@@ -23,6 +23,8 @@ latest-spotify: "https://open.spotify.com/embed?uri=spotify:track:3Tjzew0UcMIS1d
 
 download-site: "http://unbox.kraedt.com/"
 download-site-dl: "http://unbox.kraedt.com/download/request/"
+#download-site: "https://localhost:5001/"
+#download-site-dl: "https://localhost:5001/download/request/"
 
 current-year: 2018
 

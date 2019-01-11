@@ -1,0 +1,4 @@
+<form id="dl-form" method="POST" action="{{ site.download-site-dl }}">
+    <input type="hidden" name="clientId"/>
+    <input type="hidden" name="id"/>
+</form>

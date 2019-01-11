@@ -4,6 +4,8 @@ layout: default
 
 <h2><a href="/music">See More Music</a></h2>
 
+{% include download-form.jekyll %}
+
 <table class="song-page">
     <tr><td><h3>Album / EP</h3></td></tr>
     <tr>
@@ -41,11 +43,7 @@ layout: default
                     <h3><a class="inline-a" href={{song.url}}>{{song.title}}</a></h3>
 
                     {% if page.downloadable %}
-			<form action="{{ site.download-site-dl }}" method="POST">
-				<input type="hidden" name="id" value="{{ song.id }}" />
-				<a class="btn btn-lg btn-warning" href="#" onclick="this.parentNode.submit()">DOWNLOAD</a>
-
-			</form>
+                        <button class="btn btn-lg btn-warning" onclick="requestDownload({{ song.id }}, '{{ site.download-site-dl }}')">DOWNLOAD</button>
                     {% endif %}
                 </td>
             </tr>

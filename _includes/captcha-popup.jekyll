@@ -1,0 +1,48 @@
+
+<script>
+    var receivedSuccess = false;
+
+    $(document).ready(function() {
+        $("#captcha-form").submit(function(e) {
+            e.preventDefault();
+            var clientId = getClientId();
+            $("input[name='clientId']").val(clientId);
+
+            $.ajax({
+                type: "POST",
+                url: "{{ site.download-site }}captcha/verify",
+                data: $("#captcha-form").serialize(),
+                success: function(data) {
+                    console.log("Captcha verification successful. Auto-submitting " + captchaCompleteAutoForm + " form again.")
+
+                    if (captchaCompleteAutoForm != ""){
+                        receivedSuccess = true;
+                        $(captchaCompleteAutoForm).submit();
+                        toggleCaptchaPopup(false);
+                    }
+                },
+                error: function(err) {
+                    console.log(err);
+                    alert("There was an error verifying captcha status. Please try again later.")
+                }
+            });
+        });
+    });
+</script>
+
+<div id='captcha-popup' class='modal' style="display:none;">
+    <div class='modal-content'>
+        <div class="content-window">
+            <span id="captcha-close" class="close">&times;</span>
+            <h1>Ahoy! Just need to verify your request real quick.</h1>
+            <p>This shouldn't be painful...</p>
+            <br/>
+            <img src="/assets/images/norobots.jpg" alt="No robots allowed." style="width:200px;height:200px;"/>
+            <br/>
+            <form id="captcha-form">
+                <input type="hidden" name="clientId"/>
+                <div id="captcha"></div>
+            </form>
+        </div>
+    </div>
+</div>

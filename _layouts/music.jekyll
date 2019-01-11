@@ -8,6 +8,8 @@ layout: default
     }
 </script>
 
+{% include download-form.jekyll %}
+
 {{content}}
 
 <h2>Music</h2>
@@ -19,13 +21,6 @@ layout: default
 </div>
 
 <table class="music-page">
-    {% comment %} <tr>
-        <th></th>
-        <th>Title</th>
-        <th>Artist</th>
-        <th>Genre</th>
-        <th></th>
-    </tr> {% endcomment %}
     {% assign sorted = site.pages | sort:'id' %}
     {% for song in sorted reversed %}
     {% if song.layout == 'song' %}
@@ -41,11 +36,7 @@ layout: default
         <td>
             <div class="audio-links">
                 {% if song.downloadable %}
-		<form id="dl-form-{{ song.id }}" action="{{ site.download-site-dl }}" method="POST">
-			<input type="hidden" name="id" value="{{ song.id }}" />
-
-		</form>
-		<a class="direct-dl-btn" href="#" onclick="document.getElementById('dl-form-{{ song.id }}').submit()"><img src="/assets/images/links/direct.png"/></a>
+                    <button class="direct-dl-btn" onclick="requestDownload({{ song.id }}, '{{ site.download-site-dl }}')"><img src="/assets/images/links/direct.png"/></button>
                 {% endif %}
                 {% include ext-link.jekyll url=song.spotify title='Spotify' img='spotify' %}
                 {% include ext-link.jekyll url=song.itunes title='iTunes' img='itunes' %}

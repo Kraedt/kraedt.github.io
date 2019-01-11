@@ -2,17 +2,63 @@
 layout: default
 ---
 
+<script>
+    $(document).ready(function() {
+        $("#contact-form").submit(function(e) {
+            e.preventDefault();
+            var clientId = getClientId();
+            $("input[name='clientId']").val(clientId);
+
+            captchaCompleteAutoForm = "#contact-form";
+
+            $("#submitBtn").attr("disabled", true);
+            setStatus("Sending...");
+
+            $.ajax({
+                type: "POST",
+                crossDomain: true,
+                url: "{{ site.download-site }}contact",
+                data: $("#contact-form").serialize(),
+                success: function(response) {
+                    if (response == "success") {
+                        setStatus("Message sent successfully.")
+                    }
+                    else {
+                        setStatus("There was a problem sending your message. Please use the email address below.", true);
+                        $("#submitBtn").attr("disabled", false);
+                    }
+                },
+                error: function(err) {
+                    console.log("Error: " + JSON.stringify(err));
+                    toggleCaptchaPopup(true);
+                    $("#submitBtn").attr("disabled", false);
+                    setStatus("Please complete the captcha.")
+                    return false;
+                }
+            });
+        });
+    });
+
+    function setStatus(status, error = false) {
+        $("#contact-status").text(status);
+
+        if (error)
+            cs.attr("class", "error");
+    }
+</script>
+
 <h2>Contact</h2>
-{{ content }}
+<p id="contact-status"></p>
 <p class="mobile-warning"></p>
 
 <div class="form-group contact-form">
-    <form method="post" action="{{ site.download-site }}contact">
-        <input class="form-control" type="text" name="name" maxlength="40" placeholder="Name"/><br/>
+    <form id="contact-form">
+        <input type="hidden" name="clientId"/>
+        <input class="form-control" type="text" name="name" maxlength="40" placehoder="Name"/><br/>
 	<small><em>Email is not required, but if you want a reply, be sure to include it.</em></small>
         <input class="form-control" type="email" name="email" placeholder="Email Address"/><br/>
         <textarea class="form-control" name="message" draggable="false" rows="6" placeholder="Message*" maxlength="360" required></textarea><br/>
-        <input class="button btn btn-warning" type="submit" value="Submit"/>
+        <input id="submitBtn" class="button btn btn-warning" type="submit" value="Submit"/>
     </form>
 </div>
 
