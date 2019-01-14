@@ -33,7 +33,7 @@
         <div class="content-window">
             <span id="captcha-close" class="close">&times;</span>
             <h1>Ahoy! Just need to verify your request real quick.</h1>
-            <p>This shouldn't be painful...</p>
+            <p>This shouldn't be painful... (You only need to do this once per session)</p>
             <br/>
             <img src="/assets/images/norobots.jpg" alt="No robots allowed." style="width:200px;height:200px;"/>
             <br/>
