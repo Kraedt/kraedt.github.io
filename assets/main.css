@@ -1,28 +1,24 @@
-/*<editor-fold desc="Base">*/
-
 html {
     width: 100vw;
     overflow-x: hidden;
 }
 
 body {
-    background: url("../assets/images/background.jpg") black no-repeat fixed;
-    background-size: cover;
-    background-position: center center;
+    background-color: #111;
     color: white;
     font-family: Montserrat, sans-serif;
 }
 
-.content-window {
-    padding: 0 15px 15px 15px;
-    background: rgba(0, 0, 0, 0.8);
-    border: solid #FF9A01;
-    border-radius: 10px;
-    box-shadow: 14px 14px 28px rgba(0, 0, 0, 0.8);
+.banner {
+    background: url("../assets/images/background.jpg") black no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 50vh;
 }
 
-.content-window .body-content p {
-    font-size: 1em;
+.content-window {
+    padding: 0 15px 15px 15px;
 }
 
 .modal {
@@ -64,7 +60,7 @@ body {
 .body-content {
     min-height: calc(100vh - 340px);
     margin: 0 auto;
-    max-width: 65%;
+    max-width: 90%;
     left: -10px;
     padding-bottom: 40px;
 }
@@ -137,19 +133,18 @@ form .button {
 
 ul {
     list-style: square;
-    font-size: 1em;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5vmax;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.1vmax;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 0.9vmax;
 }
 
 a {
@@ -164,7 +159,7 @@ a:focus {
 }
 
 p {
-    font-size: 1em;
+    font-size: 0.75vmin;
 }
 
 .text-center {
@@ -186,20 +181,18 @@ p {
     height: 50px;
 }
 
-/*</editor-fold>*/
-
-/*<editor-fold desc="Header">*/
-
 .navbar {
     text-decoration: none;
-    margin-top: -0.6em;
     overflow: hidden;
+    margin-bottom: 0; /* ignore bootstrap */
+    min-height: 60px;
+    border: 0;
 }
 
-.navbar-shadow {
+.navbar-bg {
     position: absolute;
     margin-top: -8px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    background-color: #292929; 
     width: 150%;
     height: 95px;
     border: none;
@@ -209,7 +202,7 @@ p {
 .navbar .links {
     display: table;
     margin: 0 auto;
-    padding-top: 1em;
+    padding-top: 16px;
 }
 
 .navbar li {
@@ -254,11 +247,6 @@ p {
         content: attr(title);
     }
 
-    .logo img {
-        width: 70%;
-        max-width: 50%;
-    }
-
     .mobile-warning:after {
         color: red;
         content: "WARNING: This website is not completely mobile-compatible. While it's still entirely functional, keep in mind that it might not look very pretty.";
@@ -277,7 +265,7 @@ p {
 }
 
 .header .sm {
-    padding: 0 0.2em 0 0.2em;
+    padding: 0 0.3em 0 0.3em;
 }
 
 .header .br {
@@ -287,7 +275,7 @@ p {
 .sm img {
     width: 35px;
     height: 35px;
-    vertical-align: middle;
+    margin-top: -8px;
     filter: brightness(100) grayscale(100%);
     -webkit-filter: brightness(100) grayscale(100%);
 }
@@ -304,15 +292,10 @@ p {
     background: transparent;
 }
 
-.header {
-    font-size: 1.4em;
-    font-family: Leon, serif;
-    color: #ffffff;
-}
-
 .header a {
     display: inline-block;
     vertical-align: middle;
+    font-size: 1.4em;
     color: white;
 }
 
@@ -331,10 +314,15 @@ p {
 
 .logo {
     text-align: center;
-    padding: 1em 0 1em 0;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    top: 12vh;
 }
 
-/*</editor-fold>*/
+.logo img {
+    height: 26vh;
+}
 
 .bio-container{
     display: flex;

@@ -1,5 +1,4 @@
 <html>
-<!-- If this is here, that is a problem -->
 
 <script>
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -14,7 +13,7 @@
 </script>
 
 <div class="header">
-    <div class="navbar-shadow"></div>
+    <div class="navbar-bg"></div>
     <div class="navbar" id="nav">
         <ul class="links">
             <li><a href="/" class="{%if page.url == '/'%}active{%endif%}">HOME</a></li>
@@ -30,8 +29,6 @@
                               target="_blank"><img src="/assets/images/spotify_icon.png"></a></li>
             <li class="sm"><a href="https://pro.beatport.com/artist/kraedt/429462" title="Beatport" target="_blank"><img
                     src="/assets/images/beatport_icon.png"></a></li>
-            <!-- <li class="sm"><a href="http://facebook.com/kraedt" title="Facebook" target="_blank"><img -->
-                    <!-- src="/assets/images/facebook_icon.png"></a></li> -->
             <li class="sm"><a href="http://twitter.com/kraedt" title="Twitter" target="_blank"><img
                     src="/assets/images/twitter_icon.png"></a></li>
             <li class="sm"><a href="http://instagram.com/kraedt" title="Instagram" target="_blank"><img
@@ -39,6 +36,8 @@
             <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a>
         </ul>
     </div>
-    <div class="logo"><img src="/assets/images/logo.png"/></div>
+    <div class="banner">
+        <div class="logo"><img src="/assets/images/logo.png"/></div>
+    </div>
 </div>
 </html>
