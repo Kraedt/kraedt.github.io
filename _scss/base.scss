@@ -1,10 +1,12 @@
+@import 'vars';
+
 html {
     width: 100vw;
     overflow-x: hidden;
 }
 
 body {
-    background-color: #111;
+    background-color: $primary-dark;
     color: white;
     font-family: Montserrat, sans-serif;
 }
@@ -159,7 +161,7 @@ a:focus {
 }
 
 p {
-    font-size: 0.75vmin;
+    font-size: 0.75vmax;
 }
 
 .text-center {

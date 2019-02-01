@@ -3,7 +3,6 @@ layout: default
 ---
 
 {{ content }}
-
 <h2 class="text-center">Welcome!</h2>
 
 <p class="mobile-warning"></p>
