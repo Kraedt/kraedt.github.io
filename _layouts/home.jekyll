@@ -3,9 +3,6 @@ layout: default
 ---
 
 {{ content }}
-<h2 class="text-center">Welcome!</h2>
-
-<p class="mobile-warning"></p>
 
 <div class="bio-container">
     <div class="bio-text">
@@ -16,10 +13,10 @@ layout: default
         friendly licenses.
         </p>
 
-        <h3 class="text-big text-center">Check out this <a href="/club1506-interview">interview I did with Club1506</a>!</h3>
+        <h3 class="text-center">Check out this <a href="/club1506-interview">interview I did with Club1506</a>!</h3>
 
-        <h3 class="text-center">Track Spotlight:</h3>
         <div id="spotlightCarousel" class="carousel slide album-carousel" data-ride="carousel">
+        <h3 class="text-center">Track Spotlight:</h3>
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 {% assign counter = 0 %}
@@ -79,7 +76,7 @@ layout: default
     <div class="vertical-divider"></div>
 
     <div class="spotify-blurb text-center">
-        <h3 class="text-big">A good chunk of my music is now on Spotify!</h3>
+        <h3>A good chunk of my music is now on Spotify!</h3>
         <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:0YbhxZi9PSVTmB4UMkM5Jw&amp;size=detail&amp;theme=dark"
                 width="210" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;"
                 allowtransparency="true"></iframe>

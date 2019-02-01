@@ -1,0 +1,45 @@
+@import "vars";
+
+.banner {
+    background: url("../assets/images/background.jpg") black no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 50vh;
+
+    @media screen and (max-width: $mq-desktop) {
+        display: none;
+    }
+}
+
+.header a {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.4em;
+    color: white;
+}
+
+.header .active,
+.header a:active,
+.header a:hover,
+.header a.focus {
+    color: #FF9A03;
+    background-color: transparent;
+}
+
+.header ul {
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+.logo {
+    text-align: center;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    top: 12vh;
+}
+
+.logo img {
+    height: 26vh;
+}

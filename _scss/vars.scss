@@ -1,1 +1,31 @@
+// Colors
+$primary: #FF9A03;
+$primary-select: #FFD603;
 $primary-dark: #111;
+$primary-nav: #292929;
+$primary-nav-responsive: #333;
+
+// --------------------------------------------------- //
+
+// Media
+$mq-mobile-portrait		: 320px !default;
+$mq-mobile-landscape	: 480px !default;
+$mq-tablet-portrait		: 768px !default;
+$mq-tablet-landscape	: 1024px !default;
+$mq-desktop				: 1382px !default;
+
+// --------------------------------------------------- //
+
+// Fonts
+$font: Montserrat, sans-serif;
+$font-alt: Leon, sans-serif;
+
+@font-face {
+    font-family: Leon;
+    src: url('/assets/fonts/Leon-Regular_TRIAL.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('/assets/fonts/Montserrat-Regular.ttf')
+}

@@ -1,0 +1,97 @@
+@import "vars";
+
+.navbar {
+    text-decoration: none;
+    overflow: hidden;
+    margin-bottom: 0;
+    min-height: 60px;
+    border: 0;
+}
+
+.navbar-bg {
+    position: absolute;
+    background-color: $primary-nav; 
+    width: 100%;
+    height: 60px;
+    z-index: -1;
+}
+
+.navbar .links {
+    display: table;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.navbar li {
+    font-size: 1.1em;
+    font-family: $font-alt;
+}
+
+.navbar ul, .navbar li {
+    display: inline;
+    padding: 0 1.3em 0 1.3em;
+}
+
+.navbar li a {
+    display: none;
+}
+
+.navbar .sm {
+    padding: 0 0.3em 0 0.3em;
+}
+
+.navbar .br {
+    padding-left: 0.8em;
+}
+
+.navbar .sm img {
+    width: 35px;
+    height: 35px;
+    margin-top: -8px;
+    filter: brightness(100) grayscale(100%);
+    -webkit-filter: brightness(100) grayscale(100%);
+}
+
+.navbar .sm img:hover {
+    filter: brightness(100%) grayscale(0);
+    -webkit-filter: brightness(100%) grayscale(0);
+}
+
+.navbar .icon {
+    display: none;
+}
+
+@media screen and (min-width: $mq-desktop) {
+    .navbar li a {
+        display: initial;
+    }
+}
+
+@media screen and (max-width: $mq-desktop) {
+    .navbar .links {
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    .navbar .icon {
+        position: absolute;
+        top: 12px;
+        right: 16px;
+        display: block;
+    }
+
+    .navbar.responsive {
+        background-color: $primary-nav;
+        height: calc(100% - 50px);
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+    }
+
+    .social-media a:after {
+        display: inline-block;
+        content: attr(title);
+    }
+}

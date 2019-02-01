@@ -1,0 +1,74 @@
+@import "vars";
+
+.bio-container{
+    display: flex;
+    padding-top: 16px;
+}
+
+.bio-text {
+    width: 50%;
+    margin-right: 7px;
+}
+
+.spotify-blurb {
+    flex: 1;
+    margin-left: 7px;
+}
+
+$divider-color: rgba(200,200,200,0.3);
+.vertical-divider {
+    border-left: 2px solid $divider-color;
+    margin-left: 2px;
+    margin-right: 4px;
+}
+
+.album-carousel {
+    $size: 300px;
+    width: $size;
+    height: $size;
+    left: 50%;
+    margin-left: -1 * ($size / 2);
+}
+
+.interview-container h1, 
+.interview-container h2, 
+.interview-container h3 {
+    color: #AAAAAA;
+}
+
+@media screen and (max-width: $mq-desktop) {
+    .bio-container {
+        display: block;
+
+        p {
+            font-size: 1.2em;
+        }
+
+        h3 {
+            font-size: 1.4em;
+        }
+    }
+
+    .vertical-divider {
+        border-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+        
+        margin-top: 80px;
+        border-top: 2px solid $divider-color;
+    }
+
+    .bio-text {
+        width: 100%;
+    }
+
+    .spotify-blurb {
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .album-carousel {
+        margin-top: 40px;
+    }
+}

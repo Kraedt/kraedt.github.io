@@ -1,0 +1,29 @@
+@import "vars";
+
+footer {
+    height: 20px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    font-size: 1.2em;
+    font-family: $font;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+footer a,
+footer a:visited {
+    color: $primary;
+}
+
+footer a:hover,
+footer a:focus {
+    color: $primary-select;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+@media screen and (max-width: $mq-desktop) {
+    footer {
+        display: none;
+    }
+}

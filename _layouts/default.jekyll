@@ -8,9 +8,7 @@
 {% include header.jekyll %}
 
 <main class="body-content" aria-label="Content">
-    <div class="content-window">
-        {{ content }}
-    </div>
+    {{ content }}
 </main>
 
 {% include footer.jekyll %}
