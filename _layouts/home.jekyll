@@ -15,8 +15,8 @@ layout: default
 
         <h3 class="text-center">Check out this <a href="/club1506-interview">interview I did with Club1506</a>!</h3>
 
-        <div id="spotlightCarousel" class="carousel slide album-carousel" data-ride="carousel">
         <h3 class="text-center">Track Spotlight:</h3>
+        <div id="spotlightCarousel" class="carousel slide album-carousel" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 {% assign counter = 0 %}
