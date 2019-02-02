@@ -16,7 +16,6 @@ body {
   font-family: Montserrat, sans-serif; }
 
 .body-content {
-  min-height: calc(100vh - 340px);
   margin: 0 auto;
   max-width: 90%;
   left: -10px; }
