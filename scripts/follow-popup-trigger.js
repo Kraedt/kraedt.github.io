@@ -5,13 +5,13 @@ $(document).ready(function () {
     var split = location.split('/');
     var currentPage = split[split.length - 2];
 
-    var dontShow = localStorage.getItem('shouldShowFollowPopup') === "true";
+    var dontShow = localStorage.getItem('shouldShowFollowPopup') === "false";
 
     if (!dontShow && showOnPages.includes(currentPage))
         toggleModalPopup('follow-popup', true);
 });
 
 function dontShowAgain() {
-    localStorage.setItem('shouldShowFollowPopup', "true");
+    localStorage.setItem('shouldShowFollowPopup', "false");
     toggleModalPopup('follow-popup', false);
 }
