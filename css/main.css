@@ -1,0 +1,449 @@
+@font-face {
+  font-family: Leon;
+  src: url("/assets/fonts/Leon-Regular_TRIAL.ttf"); }
+
+@font-face {
+  font-family: Montserrat;
+  src: url("/assets/fonts/Montserrat-Regular.ttf"); }
+
+html {
+  width: 100vw;
+  overflow-x: hidden; }
+
+body {
+  background-color: #111;
+  color: white;
+  font-family: Montserrat, sans-serif; }
+
+.body-content {
+  min-height: calc(100vh - 340px);
+  margin: 0 auto;
+  max-width: 90%;
+  left: -10px; }
+
+select,
+textarea {
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  resize: none; }
+
+form input {
+  width: auto;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px; }
+
+form .button {
+  width: auto;
+  float: right; }
+
+.contact-form {
+  padding: 2px; }
+
+.message {
+  color: #FFD603; }
+
+.error {
+  color: red; }
+
+.corner-controls {
+  position: fixed;
+  right: 1.5em;
+  bottom: 1em;
+  font-size: 16px;
+  text-align: right; }
+
+.corner-controls a {
+  padding-top: 10px;
+  display: block; }
+
+ul {
+  list-style: square; }
+
+h1 {
+  font-size: 1.5vmax; }
+
+h2 {
+  font-size: 1.1vmax; }
+
+h3 {
+  font-size: 0.9vmax; }
+
+a {
+  color: #FF9A03;
+  text-decoration: none; }
+
+a:hover,
+a:focus {
+  color: #FFD603;
+  text-decoration: none; }
+
+p {
+  font-size: 0.75vmax; }
+
+.darken-text {
+  color: #AAA; }
+
+.text-center {
+  text-align: center; }
+
+.btn a {
+  vertical-align: middle; }
+
+@media screen and (max-width: 1382px) {
+  p {
+    font-size: 1.2em; }
+  h1 {
+    font-size: 1.8em; }
+  h2 {
+    font-size: 1.6em; }
+  h3 {
+    font-size: 1.4em; }
+  h3 {
+    font-size: 1.2em; } }
+
+@font-face {
+  font-family: Leon;
+  src: url("/assets/fonts/Leon-Regular_TRIAL.ttf"); }
+
+@font-face {
+  font-family: Montserrat;
+  src: url("/assets/fonts/Montserrat-Regular.ttf"); }
+
+.navbar {
+  text-decoration: none;
+  overflow: hidden;
+  margin-bottom: 0;
+  min-height: 60px;
+  border: 0; }
+
+.navbar-bg {
+  position: absolute;
+  background-color: #292929;
+  width: 100%;
+  height: 60px;
+  z-index: -1; }
+
+.navbar .links {
+  display: table;
+  margin: 0 auto;
+  padding-top: 16px; }
+
+.navbar li {
+  font-size: 1.1em;
+  font-family: Leon, sans-serif; }
+
+.navbar ul, .navbar li {
+  display: inline;
+  padding: 0 1.5em 0 1.5em; }
+
+.navbar li a {
+  display: none; }
+
+.navbar .sm {
+  padding: 0 0.3em 0 0.3em; }
+
+.navbar .br {
+  padding-left: 0.8em; }
+
+.navbar .sm img {
+  width: 35px;
+  height: 35px;
+  margin-top: -8px;
+  filter: brightness(100) grayscale(100%);
+  -webkit-filter: brightness(100) grayscale(100%); }
+
+.navbar .sm img:hover {
+  filter: brightness(100%) grayscale(0);
+  -webkit-filter: brightness(100%) grayscale(0); }
+
+.navbar .icon {
+  display: none; }
+
+@media screen and (min-width: 1382px) {
+  .navbar li a {
+    display: initial; } }
+
+@media screen and (max-width: 1382px) {
+  .navbar .links {
+    margin-top: -20px;
+    margin-left: 20px; }
+  .navbar .icon {
+    position: absolute;
+    top: 14px;
+    right: 22px;
+    display: block; }
+  .navbar.responsive {
+    background-color: #292929;
+    height: calc(100% - 50px); }
+  .navbar.responsive a {
+    float: none;
+    display: block; }
+  .sm a:after {
+    white-space: pre;
+    content: "  -  " attr(title); } }
+
+@font-face {
+  font-family: Leon;
+  src: url("/assets/fonts/Leon-Regular_TRIAL.ttf"); }
+
+@font-face {
+  font-family: Montserrat;
+  src: url("/assets/fonts/Montserrat-Regular.ttf"); }
+
+.bio-container {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 16px; }
+
+.bio-text {
+  width: 50%;
+  margin-right: 7px; }
+
+.spotify-blurb {
+  -ms-flex: 1;
+      flex: 1;
+  margin-left: 7px; }
+
+.vertical-divider {
+  border-left: 2px solid rgba(200, 200, 200, 0.3);
+  margin-left: 2px;
+  margin-right: 4px; }
+
+.album-carousel {
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  margin-left: -150px; }
+
+.interview-container h1,
+.interview-container h2,
+.interview-container h3 {
+  color: #AAAAAA; }
+
+@media screen and (max-width: 1382px) {
+  .bio-container {
+    display: block; }
+    .bio-container p {
+      font-size: 1.2em; }
+    .bio-container h3 {
+      font-size: 1.4em; }
+  .vertical-divider {
+    border-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 80px;
+    border-top: 2px solid rgba(200, 200, 200, 0.3); }
+  .bio-text {
+    width: 100%; }
+  .spotify-blurb {
+    margin-top: 20px;
+    margin-bottom: 20px; } }
+
+@font-face {
+  font-family: Leon;
+  src: url("/assets/fonts/Leon-Regular_TRIAL.ttf"); }
+
+@font-face {
+  font-family: Montserrat;
+  src: url("/assets/fonts/Montserrat-Regular.ttf"); }
+
+.banner {
+  position: relative;
+  background: url("../assets/images/background.jpg") black no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 35vh; }
+
+.header a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.4em;
+  color: white; }
+
+.header .active,
+.header a:active,
+.header a:hover,
+.header a.focus {
+  color: #FF9A03;
+  background-color: transparent; }
+
+.header ul {
+  list-style-type: none;
+  font-size: 1.1em; }
+
+.logo {
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  width: 100%;
+  height: 100%; }
+
+.logo img {
+  max-height: 20vh;
+  max-width: 100%;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+@media screen and (max-width: 1382px) {
+  .banner {
+    background: none;
+    height: 18vh; }
+  .logo {
+    background: #1C1C1C; }
+  .logo img {
+    max-width: 80%; } }
+
+@font-face {
+  font-family: Leon;
+  src: url("/assets/fonts/Leon-Regular_TRIAL.ttf"); }
+
+@font-face {
+  font-family: Montserrat;
+  src: url("/assets/fonts/Montserrat-Regular.ttf"); }
+
+footer {
+  height: 20px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  font-size: 1.2em;
+  font-family: Montserrat, sans-serif;
+  font-style: italic;
+  text-align: center;
+  color: white; }
+
+footer a,
+footer a:visited {
+  color: #FF9A03; }
+
+footer a:hover,
+footer a:focus {
+  color: #FFD603;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
+
+@media screen and (max-width: 1382px) {
+  footer {
+    display: none; } }
+
+.image-prop {
+  width: 110px;
+  height: 110px;
+  margin: 8px 0; }
+
+.image-prop-small {
+  width: 50px;
+  height: 50px; }
+
+.direct-dl-btn {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent; }
+
+.music-page {
+  width: 100%; }
+
+.music-page td {
+  border-top: 1px inset white;
+  text-align: center; }
+
+.song-page, .song-page td {
+  width: 100%;
+  text-align: center; }
+
+.audio-links {
+  display: inline-block;
+  width: 280px; }
+
+.btn-download {
+  background: #ff9a01;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  width: 150px;
+  height: 40px;
+  border: 2px;
+  border-color: black;
+  border-radius: 8px;
+  border-style: solid;
+  font-family: Leon, sans-serif;
+  font-variant: all-small-caps;
+  font-weight: bold;
+  font-size: 32px; }
+
+.btn-download:hover {
+  background: #333;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  border-color: #ff9a01; }
+
+.btn-download h1 {
+  margin-top: -4px;
+  vertical-align: middle; }
+
+.mobile-song-info {
+  display: none; }
+
+@media screen and (max-width: 1382px) {
+  .image-prop {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 0; }
+  .song-info {
+    display: none; }
+  .mobile-song-info {
+    display: initial;
+    padding-bottom: 10px; }
+  .audio-links {
+    display: none; }
+  .corner-controls {
+    display: none; }
+  .see-more-music {
+    margin-bottom: 18px; } }
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.modal-content {
+  margin: 16% auto;
+  width: 80%;
+  border: none;
+  background-color: #0000;
+  text-align: center;
+  box-shadow: none; }
+
+.close {
+  position: fixed;
+  right: 20px;
+  top: 0px;
+  color: #e33;
+  opacity: 1;
+  z-index: 100;
+  font-size: 5em;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #aaa;
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer; }
+
+.div-center-fixed {
+  width: 303px;
+  margin: 0 auto; }
