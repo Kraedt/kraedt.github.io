@@ -1,7 +1,58 @@
+<style>
+    .follow-popup-table {
+        margin: auto;
+        width: 30%;
+        text-align: left;
+        vertical-align: center;
+    }
+
+    .follow-popup-table td {
+        padding-bottom: 20px;
+    }
+</style>
+
 <div id='follow-popup' class='modal' style="display:none;">
     <div class='modal-content'>
-        <span class="close" onclick="toggleModalPopup(false, 'follow-popup')">&times;</span>
-        <p>Some message</p>
-        <a href='javascript:void(0)' target='_blank' onclick='dontShowAgain()'>Don't show this again</a>
+        <span class="close" onclick="toggleModalPopup('follow-popup', false)">&times;</span>
+        <h2>Insert some message about following blah blah</h2>
+        <br/>
+        <table class="follow-popup-table">
+            <tr>
+                <td><h3>Spotify:</h3></td>
+                <td>
+                    {% include spotify-follow.jekyll %}
+                </td>
+            </tr>
+            <tr>
+                <td><h3>Youtube:</h3></td>
+                <td>
+                    <script src="https://apis.google.com/js/platform.js"></script>
+                    <div class="g-ytsubscribe" data-channel="kraedt" data-layout="full" data-theme="dark" data-count="default"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><h3>Twitter:</h3></td>
+                <td>
+                    <a href="https://twitter.com/kraedt?ref_src=twsrc%5Etfw"
+                        class="twitter-follow-button"
+                        data-show-count="true">Follow @kraedt</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </td>
+            </tr>
+            <tr>
+                <td><h3>Instagram:</h3></td>
+                <td>
+                    <a href="http://instagram.com/kraedt" target="_blank">Follow Kraedt on Instagram</a>
+                </td>
+            </tr>
+            <tr>
+                <td><h3>Soundcloud:</h3></td>
+                <td>
+                    <a href="http://soundcloud.com/kraedt" target="_blank">Follow Kraedt on Soundcloud</a>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <h2><a href='javascript:void(0)' target='_blank' onclick='dontShowAgain()'>Don't show this again</a></h2>
     </div>
 </div>
