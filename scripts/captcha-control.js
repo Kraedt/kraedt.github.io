@@ -19,6 +19,7 @@ function getClientId() {
 function toggleModalPopup(id, value) {
     var i = "#" + id;
     $("#" + id)[0].style.display = value ? 'block' : 'none';
+    $('html').css("overflow", value ? 'hidden' : 'initial');
 }
 
 function autoSubmitCaptchaForm() {
