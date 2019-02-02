@@ -1,21 +1,28 @@
 <style>
     .follow-popup-table {
-        margin: auto;
+        margin: auto auto;
         width: 30%;
-        text-align: left;
+        text-align: center;
         vertical-align: center;
     }
 
     .follow-popup-table td {
-        padding-bottom: 20px;
+        border-bottom: 1px solid #444;
+    }
+
+    .follow-btn :hover {
+        filter: brightness(120%);
+        -webkit-filter: brightness(120%);
     }
 </style>
 
+<script>registerModalToClose("follow-popup")</script>
+
 <div id='follow-popup' class='modal' style="display:none;">
+    <span class="close" onclick="toggleModalPopup('follow-popup', false)">&times;</span>
     <div class='modal-content'>
-        <span class="close" onclick="toggleModalPopup('follow-popup', false)">&times;</span>
-        <h2>Insert some message about following blah blah</h2>
-        <br/>
+        <h3>If you enjoy my music, please take the time to give me a follow on my main platforms!</h3>
+        <p>Thank you!</p>
         <table class="follow-popup-table">
             <tr>
                 <td><h3>Spotify:</h3></td>
@@ -31,6 +38,12 @@
                 </td>
             </tr>
             <tr>
+                <td><h3>Soundcloud:</h3></td>
+                <td>
+                    <a class="follow-btn" href="http://soundcloud.com/kraedt" target="_blank"><img src="/assets/images/follow-soundcloud.png"/></a>
+                </td>
+            </tr>
+            <tr>
                 <td><h3>Twitter:</h3></td>
                 <td>
                     <a href="https://twitter.com/kraedt?ref_src=twsrc%5Etfw"
@@ -42,13 +55,7 @@
             <tr>
                 <td><h3>Instagram:</h3></td>
                 <td>
-                    <a href="http://instagram.com/kraedt" target="_blank">Follow Kraedt on Instagram</a>
-                </td>
-            </tr>
-            <tr>
-                <td><h3>Soundcloud:</h3></td>
-                <td>
-                    <a href="http://soundcloud.com/kraedt" target="_blank">Follow Kraedt on Soundcloud</a>
+                    <a class="follow-btn" href="http://instagram.com/kraedt" target="_blank"><img src="/assets/images/follow-instagram.png"/></a>
                 </td>
             </tr>
         </table>

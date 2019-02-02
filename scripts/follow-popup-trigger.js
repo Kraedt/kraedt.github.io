@@ -7,8 +7,9 @@ $(document).ready(function () {
 
     var dontShow = localStorage.getItem('shouldShowFollowPopup') === "false";
 
-    if (!dontShow && showOnPages.includes(currentPage))
+    if (!dontShow && showOnPages.includes(currentPage)) {
         toggleModalPopup('follow-popup', true);
+    }
 });
 
 function dontShowAgain() {

@@ -1,4 +1,9 @@
 var captchaCompleteAutoForm = "";
+var modalIdsToCloseOnClick = ["captcha-popup"];
+
+function registerModalToClose(id) {
+    modalIdsToCloseOnClick.push(id);
+}
 
 function getClientId() {
     var clientId = sessionStorage.getItem("clientId");
@@ -39,8 +44,11 @@ window.onload = function () {
     loadCaptcha();
 
     window.onclick = function(event) {
-        if (event.target == document.getElementById("captcha-popup")) {
-            toggleModalPopup('captcha-popup', false);
+        if (modalIdsToCloseOnClick.includes(event.target.id)) {
+            toggleModalPopup(event.target.id, false);
+        }
+        else if (event.target.className == "modal-content") {
+            toggleModalPopup(event.target.parentElement.id, false);
         }
     }
 }
