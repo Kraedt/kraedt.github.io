@@ -30,17 +30,16 @@
 
 <div id='captcha-popup' class='modal' style="display:none;">
     <div class='modal-content'>
-        <div class="content-window">
-            <span id="captcha-close" class="close">&times;</span>
-            <h1>Ahoy! Just need to verify your request real quick.</h1>
-            <p>This shouldn't be painful... (You only need to do this once per session)</p>
-            <br/>
-            <img src="/assets/images/norobots.jpg" alt="No robots allowed." style="width:200px;height:200px;"/>
-            <br/>
-            <form id="captcha-form">
-                <input type="hidden" name="clientId"/>
-                <div id="captcha"></div>
-            </form>
-        </div>
+        <span id="captcha-close" class="close">&times;</span>
+        <h1>Ahoy! Just need to verify your request real quick.</h1>
+        <p>This shouldn't be painful... (You only need to do this once per session)</p>
+        <br/>
+        <img src="/assets/images/norobots.jpg" alt="No robots allowed." style="width:200px;height:200px;"/>
+        <br/>
+        <br/>
+        <form id="captcha-form">
+            <input type="hidden" name="clientId"/>
+            <div id="captcha"></div>
+        </form>
     </div>
 </div>

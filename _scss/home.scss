@@ -23,11 +23,11 @@ $divider-color: rgba(200,200,200,0.3);
 }
 
 .album-carousel {
-    $size: 300px;
-    width: $size;
-    height: $size;
+    $album-carousel-size: 300px;
+    width: $album-carousel-size;
+    height: $album-carousel-size;
     left: 50%;
-    margin-left: -1 * ($size / 2);
+    margin-left: -1 * ($album-carousel-size / 2);
 }
 
 .interview-container h1, 
@@ -63,7 +63,6 @@ $divider-color: rgba(200,200,200,0.3);
     }
 
     .spotify-blurb {
-        float: left;
         margin-top: 20px;
         margin-bottom: 20px;
     }

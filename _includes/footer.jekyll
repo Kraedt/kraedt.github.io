@@ -1,5 +1,5 @@
 <html>
 <footer>
-        &copy; {{ site.current-year }} Kraedt - Background & Logo by <a href="http://kinetic-gfx.tumblr.com/">Kinetic Arts</a>
+        &copy; {{ site.current-year }} Kraedt - Banner & Logo by <a href="http://kinetic-gfx.tumblr.com/">Kinetic Arts</a>
 </footer>
 </html>

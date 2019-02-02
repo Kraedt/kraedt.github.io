@@ -15,7 +15,7 @@
             <li><a href="/music" class="{%if page.url contains '/music/'%}active{%endif%}">MUSIC</a></li>
             <li><a href="/merch" class="{%if page.url == '/merch/'%}active{%endif%}">MERCH</a></li>
             <li><a href="/contact" class="{%if page.url == '/contact/'%}active{%endif%}">CONTACT</a></li>
-            <li class="br"></li>
+            <li class="br"><a></a></li>
             <li class="sm"><a href="http://soundcloud.com/kraedt" title="Soundcloud" target="_blank"><img
                     src="/assets/images/soundcloud_icon.png"></a></li>
             <li class="sm"><a href="http://youtube.com/kraedt" title="YouTube" target="_blank"><img

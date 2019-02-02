@@ -6,8 +6,7 @@ layout: default
 
 {% include download-form.jekyll %}
 
-<h2><a href="/music">See More Music</a></h2>
-
+<h2 class="see-more-music"><a href="/music">See More Music</a></h2>
 <table class="song-page">
 
     <!-- Image -->
@@ -36,14 +35,14 @@ layout: default
     <tr>
         <td>
             {% if page.buy-able %}
-            <h3>Buy the song:</h3>
+            <h3 class="darken-text">Buy the song:</h3>
             {% include ext-link.jekyll url=page.itunes title='iTunes' img='itunes' %}
             {% include ext-link.jekyll url=page.beatport title='Beatport' img='beatport' %}
             {% include ext-link.jekyll url=page.gplay title='Google Play' img='google' %}
             {% include ext-link.jekyll url=page.amazon title='iTunes' img='amazon' %}
             {% endif %}
             {% if page.spotify or page.yt-id %}
-                <h3>Stream:</h3>
+                <h3 class="darken-text">Stream:</h3>
                 {% if page.yt-id %}
                     <a href="javascript:void(0)" onclick="toggleYoutubeEmbed()" target="_blank"><img src="/assets/images/links/youtube.png"/></a>
                 {% endif %}
@@ -89,7 +88,7 @@ layout: default
         {% if album.layout == "album" and album.songs contains page.id %}
             <tr>
                 <td>
-                    <h3>Included in: <a href="{{album.url}}">{{album.title}}</a></h3>
+                    <h3 class="darken-text">Included in: <a href="{{album.url}}">{{album.title}}</a></h3>
                 </td>
             </tr>
         {% endif %}
@@ -99,7 +98,7 @@ layout: default
 
     <tr>
         <td>
-            <h3>License Information:</h3>
+            <h3 class="darken-text">License Information:</h3>
             {% assign license-info = site.data.license | where:'id',page.license %}
             <p>{{ license-info[0].desc }}</p>
             {% if license-info[0].info-url != nil %}

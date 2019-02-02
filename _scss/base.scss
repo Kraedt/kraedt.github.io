@@ -93,15 +93,36 @@ p {
     font-size: 0.75vmax;
 }
 
+.darken-text {
+    color: #AAA;
+}
+
 .text-center {
     text-align: center;
 }
 
-.div-center-fixed {
-    width: 303px;
-    margin: 0 auto;
-}
-
 .btn a {
     vertical-align: middle;
+}
+
+@media screen and (max-width: $mq-desktop) {
+    p {
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
 }

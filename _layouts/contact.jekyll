@@ -54,9 +54,11 @@ layout: default
 <div class="form-group contact-form">
     <form id="contact-form">
         <input type="hidden" name="clientId"/>
-        <input class="form-control" type="text" name="name" maxlength="40" placehoder="Name"/><br/>
-	<small><em>Email is not required, but if you want a reply, be sure to include it.</em></small>
-        <input class="form-control" type="email" name="email" placeholder="Email Address"/><br/>
+        <input class="form-control" type="text" name="name" maxlength="40" placeholder="Name"/>
+        <br/>
+        <small><em>Email is not required, but if you want a reply, be sure to include it.</em></small>
+        <input class="form-control" type="email" name="email" placeholder="Email Address"/>
+        <br/>
         <textarea class="form-control" name="message" draggable="false" rows="6" placeholder="Message*" maxlength="360" required></textarea><br/>
         <input id="submitBtn" class="button btn btn-warning" type="submit" value="Submit"/>
     </form>

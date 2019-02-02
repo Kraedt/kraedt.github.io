@@ -17,7 +17,7 @@ layout: default
 <p class="mobile-warning"></p>
 
 <div class="corner-controls">
-    <a onclick="gotoTop()" href="javascript:void(0)">Go to Top</a>
+    <a onclick="gotoTop()" href="javascript:void(0)"><i class="fas fa-arrow-up fa-2x"></i></a>
 </div>
 
 <table class="music-page">
@@ -29,10 +29,17 @@ layout: default
         {% if song.image == nil %}
         {% assign image-url = 'no-image.jpg' %}
         {% endif %}
-        <td><a href="{{ song.url }}"><img class="image-prop" src="/assets/images/songs/{{ image-url }}"/></a></td>
-        <td>{{ song.title }}</td>
-        <td>{{ song.artist }}</td>
-        <td>{{ song.genre }}</td>
+        <td>
+            <a href="{{ song.url }}"><img class="image-prop" src="/assets/images/songs/{{ image-url }}"/></a>
+
+            <div class="mobile-song-info">
+                <h2><a href="{{ song.url }}">{{ song.title }}</a></h2>
+                <p>{{ song.artist }}</p>
+            </div>
+        </td>
+        <td class="song-info"><a href="{{ song.url }}">{{ song.title }}</a></td>
+        <td class="song-info">{{ song.artist }}</td>
+        <td class="song-info">{{ song.genre }}</td>
         <td>
             <div class="audio-links">
                 {% if song.downloadable %}
