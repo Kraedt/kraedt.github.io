@@ -31,7 +31,7 @@ $(document).ready(function() {
             },
             error: function(err) {
                 console.log("Error: " + JSON.stringify(err));
-                toggleCaptchaPopup(true);
+                toggleModalPopup('captcha-popup', true);
                 return false;
             }
         });

@@ -11,9 +11,9 @@ function getClientId() {
     return clientId
 }
 
-function toggleCaptchaPopup(value){
-    var e = document.getElementById('captcha-popup');
-    e.style.display = value ? 'block' : 'none';
+function toggleModalPopup(id, value) {
+    var i = "#" + id;
+    $("#" + id)[0].style.display = value ? 'block' : 'none';
 }
 
 function autoSubmitCaptchaForm() {
@@ -38,13 +38,9 @@ window.onload = function () {
     }
     loadCaptcha();
 
-    document.getElementById("captcha-close").onclick = function() {
-    toggleCaptchaPopup(false);
-    }
-
     window.onclick = function(event) {
         if (event.target == document.getElementById("captcha-popup")) {
-            toggleCaptchaPopup(false);
+            toggleModalPopup('captcha-popup', false);
         }
     }
 }

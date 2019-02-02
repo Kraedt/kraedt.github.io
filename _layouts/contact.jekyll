@@ -30,7 +30,7 @@ layout: default
                 },
                 error: function(err) {
                     console.log("Error: " + JSON.stringify(err));
-                    toggleCaptchaPopup(true);
+                    toggleModalPopup('captcha-popup', true);
                     $("#submitBtn").attr("disabled", false);
                     setStatus("Please complete the captcha.")
                     return false;

@@ -1,4 +1,3 @@
-
 <script>
     $(document).ready(function() {
         $("#captcha-form").submit(function(e) {
@@ -16,7 +15,7 @@
                     if (captchaCompleteAutoForm != ""){
                         sessionStorage.setItem("receivedSuccess", true);
                         $(captchaCompleteAutoForm).submit();
-                        toggleCaptchaPopup(false);
+                        toggleModalPopup('captcha-popup',false);
                     }
                 },
                 error: function(err) {
@@ -30,7 +29,7 @@
 
 <div id='captcha-popup' class='modal' style="display:none;">
     <div class='modal-content'>
-        <span id="captcha-close" class="close">&times;</span>
+        <span class="close" onclick="toggleModalPopup('captcha-popup', false)">&times;</span>
         <h1>Ahoy! Just need to verify your request real quick.</h1>
         <p>This shouldn't be painful... (You only need to do this once per session)</p>
         <br/>
