@@ -40,6 +40,10 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
+sass:
+  sass_dir: css
+  style: compressed
+  
 incremental: true
 
 # Exclude from processing.

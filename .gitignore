@@ -3,6 +3,4 @@ _site
 .jekyll-metadata
 node_modules
 .vscode
-
- # Generated css files (except debug)
-css
+main.css
