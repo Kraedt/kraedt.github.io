@@ -37,7 +37,7 @@ layout: default
     </tr>
     {% assign sorted = site.pages | sort:'id' %}
     {% for song in sorted %}
-        {% if song.layout == "song" and page.songs contains song.id %}
+        {% if song.layout == "song" and page.songs contains song.name %}
             <tr>
                 <td>
                     <h3><a class="inline-a" href={{song.url}}>{{song.title}}</a></h3>

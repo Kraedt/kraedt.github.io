@@ -2,15 +2,13 @@
 layout: default
 ---
 
-<script src="/scripts/youtube-pop.js"></script>
+<script src="/scripts/youtube-pop.js"></script
 
 {% include download-form.jekyll %}
 
 <h2 class="see-more-music"><a href="/music">See More Music</a></h2>
 <table class="song-page">
-
     <!-- Image -->
-
     <tr>
         {% assign image-url = page.image %}
         {% if page.image == nil %}
@@ -83,9 +81,8 @@ layout: default
     {% endif %}
 
     <!-- Album link -->
-
     {% for album in site.pages %}
-        {% if album.layout == "album" and album.songs contains page.id %}
+        {% if album.layout == "album" and album.songs contains page.name %}
             <tr>
                 <td>
                     <h3 class="darken-text">Included in: <a href="{{album.url}}">{{album.title}}</a></h3>

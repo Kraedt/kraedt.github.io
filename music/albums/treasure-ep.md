@@ -1,7 +1,7 @@
 ---
 layout: album
 title: Treasure EP
-songs: {20, 21}
+songs: {submersion.md, loot.md}
 image: Treasure EP.jpg
 buy-able: true
 downloadable: true

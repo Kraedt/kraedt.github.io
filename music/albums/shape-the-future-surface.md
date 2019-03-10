@@ -1,7 +1,7 @@
 ---
 layout: album
 title: Shape the Future / Surface
-songs: {38, 39}
+songs: {shape-the-future.md, surface.md}
 image: STF EP.jpg
 buy-able: true
 downloadable: true

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<script>
+    function gotoTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
+
+{{content}}
+
+<h2>Albums</h2>
+
+<div class="corner-controls">
+    <a onclick="gotoTop()" href="javascript:void(0)"><i class="fas fa-arrow-up fa-2x"></i></a>
+</div>
+
+<table class="music-page">
+    {% assign sorted = site.pages | sort:'id' %}
+    {% for album in sorted reversed %}
+    {% if album.layout == 'album' %}
+    <tr>
+        {% assign image-url = album.image %}
+        {% if album.image == nil %}
+        {% assign image-url = 'no-image.jpg' %}
+        {% endif %}
+        <td>
+            <a href="{{ album.url }}"><img class="image-prop" src="/assets/images/songs/{{ image-url }}"/></a>
+
+            <div class="mobile-song-info">
+                <h2><a href="{{ album.url }}">{{ album.title }}</a></h2>
+            </div>
+        </td>
+        <td class="song-info"><h4><a href="{{ album.url }}">{{ album.title }}</a></h4></td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>

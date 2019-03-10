@@ -14,7 +14,8 @@ layout: default
 
 <h2>Music</h2>
 
-<p class="mobile-warning"></p>
+<a href="/albums" >See all albums</a>
+<br/>
 
 <div class="corner-controls">
     <a onclick="gotoTop()" href="javascript:void(0)"><i class="fas fa-arrow-up fa-2x"></i></a>
