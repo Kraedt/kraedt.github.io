@@ -24,8 +24,11 @@ layout: default
                 {% for t1 in site.data.track-spotlight %}
                     {% assign s = t1 | split:"/" | last %}
                     {% for song in site.pages %}
+		        {% if t1 contains "@album" and song.layout != "album" %}
+			    {% continue %}
+			{% endif %}
                         {% assign t2 = song.url | split:"/" | last | replace:".html","" %}
-                        {% if t1 == t2 %}
+                        {% if s == t2 %}
                             {% if counter > 0 %}
                                 {% assign active = "" %}
                             {% endif %}
@@ -45,8 +48,11 @@ layout: default
                 {% for t1 in site.data.track-spotlight %}
                     {% assign s = t1 | split:"/" | last %}
                     {% for song in site.pages %}
+		        {% if t1 contains "@album" and song.layout != "album" %}
+			    {% continue %}
+			{% endif %}
                         {% assign t2 = song.url | split:"/" | last | replace:".html","" %}
-                        {% if t1 == t2 %}
+                        {% if s == t2 %}
                             {% if counter > 0 %}
                                 {% assign active = "" %}
                             {% endif %}
