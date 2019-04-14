@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 # {- My shit -}
 # Note: Go to Spotify track / album, share > copy URI > paste at end of URL here
-latest-spotify: "https://open.spotify.com/embed?uri=spotify:track:3Tjzew0UcMIS1dLvA3gdie"
+latest-spotify: "https://open.spotify.com/embed?uri=spotify:track:65QL3Q93MecfzfjnYjGLqV"
 
 download-site: "http://unbox.kraedt.com/"
 download-site-dl: "http://unbox.kraedt.com/download/request/"
