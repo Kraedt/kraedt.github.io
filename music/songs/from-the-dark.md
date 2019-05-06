@@ -7,7 +7,7 @@ genre: Progressive House
 image: From the Dark.jpg
 buy-able: true
 downloadable: false
-yt-id:
+yt-id: OzDwRBMPJUE
 itunes: https://itunes.apple.com/us/album/from-the-dark-single/1462247406
 beatport:
 gplay:
