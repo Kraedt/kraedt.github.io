@@ -42,7 +42,7 @@ layout: default
             {% if page.spotify or page.yt-id %}
                 <h3 class="darken-text">Stream:</h3>
                 {% if page.yt-id %}
-                    <a href="javascript:void(0)" onclick="toggleYoutubeEmbed()" target="_blank"><img src="/assets/images/links/youtube.png"/></a>
+                    <a href="javascript:void(0)" onclick="toggleYoutubeEmbed()"><img src="/assets/images/links/youtube.png"/></a>
                 {% endif %}
                 {% if page.spotify %}
                     {% include ext-link.jekyll url=page.spotify title='Spotify' img='spotify' %}
