@@ -2,30 +2,20 @@
 layout: default
 ---
 
-<br/>
-<div class="text-center">
-    <i class="fa fa-exclamation-triangle fa-4x text-warning"></i>
-    <h3>The merch page is down. Sorry for the inconvenience.</h3>
-    <p>If you're interested in getting some Kraedt merch ASAP, contact me at kraedt@gmail.com!</p>
-</div>
-
-<!--
 <p class="mobile-warning"></p>
 
-<div id="myShop">
-    <a href="//shop.spreadshirt.com/kraedt">kraedt</a>
+<div id="kraedt-merch">
+    <a href="//shop.spreadshirt.com/kraedt-merch">kraedt</a>
 </div>
 
 <script>
     var spread_shop_config = {
-        shopName: 'kraedt',
+        shopName: 'kraedt-merch',
         locale: 'us_US',
         prefix: '//shop.spreadshirt.com',
-        baseId: 'myShop'
+        baseId: 'kraedt-merch'
     };
 </script>
-
 <script type="text/javascript"
         src="//shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js">
 </script>
--->
