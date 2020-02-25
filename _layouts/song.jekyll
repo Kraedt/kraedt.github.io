@@ -96,6 +96,7 @@ layout: default
     <tr>
         <td>
             <h3 class="darken-text">License Information:</h3>
+            {% include license-icon.jekyll licenseId=page.license songId=page.id size="fa-2x" %}
             {% assign license-info = site.data.license | where:'id',page.license %}
             <p>{{ license-info[0].desc }}</p>
             {% if license-info[0].info-url != nil %}

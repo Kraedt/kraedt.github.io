@@ -1,0 +1,14 @@
+[
+  {
+    "level": 1,
+    "class": "fa fa-check-circle text-success"
+  },
+  {
+    "level": 2,
+    "class": "fa fa-exclamation-circle text-warning"
+  },
+  {
+    "level": 3,
+    "class": "fa fa-skull-crossbones text-danger"
+  }
+]
