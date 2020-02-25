@@ -60,6 +60,6 @@
             </tr>
         </table>
         <br/>
-        <h2><a href='javascript:void(0)' target='_blank' onclick='dontShowAgain()'>Don't show this again</a></h2>
+        <h2><a href='javascript:void(0)' onclick='dontShowAgain()'>Don't show this again</a></h2>
     </div>
 </div>

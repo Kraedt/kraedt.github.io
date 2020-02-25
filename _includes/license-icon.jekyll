@@ -1,0 +1,4 @@
+
+{% assign l = site.data.license | where:'id',include.licenseId %}
+{% assign icon = site.data.license-icon | where:'level',l[0].level %}
+<i class="{{ icon[0].class }} fa-lg {{ include.size }}" title="{{ l[0].desc }}"></i>

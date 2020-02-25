@@ -14,8 +14,16 @@ layout: default
 
 <h2>Music</h2>
 
+<div class="w-100">
 <a href="/albums" >See all albums</a>
+
+{% if page.filter-safe %}
+    <a class="pull-right fa-lg" href="/music">Show all music</a>
+{% else %}
+    <a class="pull-right fa-lg" href="/music-creator-friendly">Show only Content-Creator-Friendly music</a>
+{% endif %}
 <br/>
+</div>
 
 <div class="corner-controls">
     <a onclick="gotoTop()" href="javascript:void(0)"><i class="fas fa-arrow-up fa-2x"></i></a>
@@ -24,6 +32,12 @@ layout: default
 <table class="music-page">
     {% assign sorted = site.pages | sort:'id' %}
     {% for song in sorted reversed %}
+    {% assign license = site.data.license | where:'id',song.license %}
+
+    {% if page.filter-safe and license[0].level != 1 %}
+        {% continue %}
+    {% endif %}
+    
     {% if song.layout == 'song' %}
     <tr>
         {% assign image-url = song.image %}
@@ -34,11 +48,14 @@ layout: default
             <a href="{{ song.url }}"><img class="image-prop" src="/assets/images/songs/{{ image-url }}"/></a>
 
             <div class="mobile-song-info">
-                <h2><a href="{{ song.url }}">{{ song.title }}</a></h2>
+                <h2><a href="{{ song.url }}">{{ song.title }}</a> {% include license-icon.jekyll licenseId=song.license songId=song.id %}</h2>
                 <p>{{ song.artist }}</p>
             </div>
         </td>
-        <td class="song-info"><a href="{{ song.url }}">{{ song.title }}</a></td>
+        <td class="song-info">
+            <a href="{{ song.url }}">{{ song.title }}</a>
+            {% include license-icon.jekyll licenseId=song.license songId=song.id %}
+        </td>
         <td class="song-info">{{ song.artist }}</td>
         <td class="song-info">{{ song.genre }}</td>
         <td>

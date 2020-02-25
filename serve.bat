@@ -1,1 +1,1 @@
-bundle exec jekyll serve --watch
+bundle exec jekyll serve --watch --force_polling
