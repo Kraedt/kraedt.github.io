@@ -1,4 +1,4 @@
-var showOnPages = ['music', 'songs', 'albums'];
+var showOnPages = ['music', 'music-creator-friendly', 'songs', 'albums'];
 
 $(document).ready(function () {
     var location = window.location.href;
