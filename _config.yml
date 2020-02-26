@@ -26,7 +26,7 @@ download-site-dl: "http://unbox.kraedt.com/download/request/"
 #download-site: "https://localhost:5001/"
 #download-site-dl: "https://localhost:5001/download/request/"
 
-current-year: 2019
+current-year: 2020
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kraedt.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
