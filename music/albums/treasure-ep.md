@@ -1,5 +1,6 @@
 ---
 layout: album
+order: 0
 title: Treasure EP
 songs: {submersion.md, loot.md}
 image: Treasure EP.jpg

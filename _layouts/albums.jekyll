@@ -17,7 +17,7 @@ layout: default
 </div>
 
 <table class="music-page">
-    {% assign sorted = site.pages | sort:'id' %}
+    {% assign sorted = site.pages | sort:'order' %}
     {% for album in sorted reversed %}
     {% if album.layout == 'album' %}
     <tr>
