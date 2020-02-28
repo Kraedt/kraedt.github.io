@@ -1,5 +1,6 @@
 ---
 layout: album
+order: 1
 title: Shape the Future / Surface
 songs: {shape-the-future.md, surface.md}
 image: STF EP.jpg
