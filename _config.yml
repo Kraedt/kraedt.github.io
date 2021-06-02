@@ -22,10 +22,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 latest-spotify: "https://open.spotify.com/embed?uri=spotify:album:5j4WVQOaWcooZJTgG1fvxg"
 
 
-download-site: "http://unbox.kraedt.com/"
-download-site-dl: "http://unbox.kraedt.com/download/request/"
-#download-site: "https://localhost:5001/"
-#download-site-dl: "https://localhost:5001/download/request/"
+#download-site: "http://unbox.kraedt.com/"
+#download-site-dl: "http://unbox.kraedt.com/download/request/"
+download-site: "https://localhost:5001/"
+download-site-dl: "https://localhost:5001/download/request/"
 
 current-year: 2020
 
