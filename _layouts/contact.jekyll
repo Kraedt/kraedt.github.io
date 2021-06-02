@@ -20,6 +20,7 @@ layout: default
                 url: "{{ site.download-site }}contact",
                 data: $("#contact-form").serialize(),
                 success: function(response) {
+		    console.log("contact response", response.details);
                     if (response == "success") {
                         setStatus("Message sent successfully.")
                     }
@@ -42,8 +43,8 @@ layout: default
     function setStatus(status, error = false) {
         $("#contact-status").text(status);
 
-        if (error)
-            cs.attr("class", "error");
+        //if (error)
+        //    cs.attr("class", "error");
     }
 </script>
 
