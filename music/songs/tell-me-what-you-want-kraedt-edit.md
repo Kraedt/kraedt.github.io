@@ -10,7 +10,6 @@ downloadable: true
 yt-id: rivMTT4pNMA
 itunes:
 beatport:
-gplay:
 amazon:
 spotify:
 license: 2

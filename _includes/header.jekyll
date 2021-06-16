@@ -26,8 +26,6 @@
                     src="/assets/images/beatport_icon.png"></a></li>
             <li class="sm"><a href="http://twitter.com/kraedt" title="Twitter" target="_blank"><img
                     src="/assets/images/twitter_icon.png"></a></li>
-            <li class="sm"><a href="http://instagram.com/kraedt" title="Instagram" target="_blank"><img
-                    src="/assets/images/instagram_icon.png"></a></li>
             <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a>
         </ul>
     </div>

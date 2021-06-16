@@ -10,7 +10,6 @@ downloadable: true
 yt-id: jlS6EZ1CF8s
 itunes:
 beatport:
-gplay:
 amazon:
 spotify:
 license: 4

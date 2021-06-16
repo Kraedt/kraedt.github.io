@@ -11,7 +11,6 @@ downloadable: true
 yt-id: w2PKC0Cb-wg
 itunes:
 beatport:
-gplay:
 amazon:
 license: 2
 ---

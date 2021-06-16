@@ -36,7 +36,6 @@ layout: default
             <h3 class="darken-text">Buy the song:</h3>
             {% include ext-link.jekyll url=page.itunes title='iTunes' img='itunes' %}
             {% include ext-link.jekyll url=page.beatport title='Beatport' img='beatport' %}
-            {% include ext-link.jekyll url=page.gplay title='Google Play' img='google' %}
             {% include ext-link.jekyll url=page.amazon title='iTunes' img='amazon' %}
             {% endif %}
             {% if page.spotify or page.yt-id %}

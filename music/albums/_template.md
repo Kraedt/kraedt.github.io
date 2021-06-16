@@ -7,7 +7,6 @@ buy-able:
 downloadable:
 itunes:
 beatport:
-gplay:
 amazon:
 spotify:
 ---

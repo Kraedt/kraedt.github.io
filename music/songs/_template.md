@@ -10,7 +10,6 @@ downloadable:
 yt-id:
 itunes:
 beatport:
-gplay:
 amazon:
 spotify:
 license: 1
