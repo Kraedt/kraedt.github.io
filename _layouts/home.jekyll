@@ -88,6 +88,6 @@ layout: default
         <br/>
         <br/>
         <h3>Latest Release:</h3>
-        <iframe src="{{site.latest-spotify}}" width="300" height="300" frameborder="0" allowtransparency="true"></iframe>
+        <iframe src="{{site.latest-spotify}}" width="290" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
 </div>
