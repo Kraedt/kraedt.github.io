@@ -10,7 +10,6 @@ downloadable: true
 yt-id: BkpaJlMneX8
 itunes:
 beatport:
-gplay:
 amazon:
 license: 2
 ---

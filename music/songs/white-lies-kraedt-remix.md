@@ -11,7 +11,6 @@ downloadable: true
 yt-id: uKAZKZEFt4U
 itunes:
 beatport:
-gplay:
 amazon:
 license: 2
 ---

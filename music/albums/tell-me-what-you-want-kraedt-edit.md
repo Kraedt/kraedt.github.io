@@ -8,7 +8,6 @@ buy-able: false
 downloadable: true
 itunes:
 beatport:
-gplay:
 amazon:
 spotify:
 ---

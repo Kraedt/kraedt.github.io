@@ -10,7 +10,6 @@ downloadable: true
 yt-id: TZSff1mo5FU
 itunes:
 beatport:
-gplay:
 amazon:
 spotify: https://open.spotify.com/album/0WubcHMnI7samSWDjZqg3n
 license: 1

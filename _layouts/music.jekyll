@@ -66,7 +66,6 @@ layout: default
                 {% include ext-link.jekyll url=song.spotify title='Spotify' img='spotify' %}
                 {% include ext-link.jekyll url=song.itunes title='iTunes' img='itunes' %}
                 {% include ext-link.jekyll url=song.beatport title='Beatport' img='beatport' %}
-                {% include ext-link.jekyll url=song.gplay title='Google Play' img='google' %}
                 {% include ext-link.jekyll url=song.amazon title='iTunes' img='amazon' %}
             </div>
         </td>

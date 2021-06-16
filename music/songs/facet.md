@@ -11,7 +11,6 @@ downloadable: true
 yt-id: 84dcsDRs8Ig
 itunes:
 beatport:
-gplay:
 amazon:
 license: 1
 ---

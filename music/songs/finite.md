@@ -12,7 +12,6 @@ yt-id: fgGBR4JvMDs
 direct:
 itunes:
 beatport:
-gplay:
 amazon:
 license: 1
 ---
