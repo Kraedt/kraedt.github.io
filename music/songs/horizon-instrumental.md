@@ -4,7 +4,7 @@ id: 53
 title: Horizon (Instrumental)
 artist: Kraedt
 genre: Drum & Bass
-image: horizon.jpg
+image: horizon_art.jpg
 buy-able: true
 downloadable: true
 yt-id: ANcO_W3nhak

@@ -2,7 +2,7 @@
 layout: album
 title: Horizon
 songs: [horizon.md, horizon-instrumental.md]
-image: horizon.jpg
+image: horizon_art.jpg
 buy-able: true
 downloadable: true
 itunes: https://music.apple.com/us/album/horizon-single/1582263965
