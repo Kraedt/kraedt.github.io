@@ -19,15 +19,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 # {- My shit -}
 # Note: Go to Spotify track / album, share > copy URI > paste at end of URL here
-latest-spotify: "https://open.spotify.com/embed/track/4kOSDbsmG01LSRPXxMbZ4u"
-
+latest-spotify: "https://open.spotify.com/embed/album/1v7emQ18QeL42hg1RGJ5Y0"
 
 download-site: "http://unbox.kraedt.com/"
 download-site-dl: "http://unbox.kraedt.com/download/request/"
 #download-site: "https://localhost:5001/"
 #download-site-dl: "https://localhost:5001/download/request/"
 
-current-year: 2020
+current-year: 2021
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kraedt.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
