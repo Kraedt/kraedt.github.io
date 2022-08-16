@@ -13,9 +13,13 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src='/scripts/captcha-control.js'></script>
     <script src='/scripts/captcha-dl.js'></script>
+    <script src='/scripts/functions.js'></script>
+    <script src='/scripts/meta.js'></script>
+    <script>
+        initMeta(`{{ site.download-site }}`);
+    </script>
     <script src='/scripts/follow-popup-trigger.js'></script>
     <script src='/scripts/footer-year.js'></script>
-    <script src='/scripts/functions.js'></script>
     {% if jekyll.environment == 'production' and site.google_analytics %}
         {% include google-analytics.html %}
     {% endif %}

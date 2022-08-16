@@ -2,17 +2,17 @@
 layout: default
 ---
 
+<script>
+    loadAlbums(`{{ page.filter-safe }}`);
+</script>
+
 <h2><a href="/music">See More Music</a></h2>
 
 {% include download-form.jekyll %}
 
-<table class="song-page">
+<table id="album-table" class="song-page">
     <tr><td><h3>Album / EP</h3></td></tr>
     <tr>
-        {% assign image-url = page.image %}
-        {% if page.image == nil %}
-        {% assign image-url = 'no-image.jpg' %}
-        {% endif %}
         <td><img src="/assets/images/songs/{{ image-url }}"/></td>
     </tr>
     <tr>
