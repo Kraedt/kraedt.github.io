@@ -10,24 +10,6 @@
 <div class="header">
     <div class="navbar-bg"></div>
     <div class="navbar" id="nav">
-        <ul class="links">
-            <li><a href="/" class="{%if page.url == '/'%}active{%endif%}">HOME</a></li>
-            <li><a href="/music" class="{%if page.url contains '/music/'%}active{%endif%}">MUSIC</a></li>
-            <li><a href="/merch" class="{%if page.url == '/merch/'%}active{%endif%}">MERCH</a></li>
-            <li><a href="/contact" class="{%if page.url == '/contact/'%}active{%endif%}">CONTACT</a></li>
-            <li class="br"><a></a></li>
-            <li class="sm"><a href="http://soundcloud.com/kraedt" title="Soundcloud" target="_blank"><img
-                    src="/assets/images/soundcloud_icon.png"></a></li>
-            <li class="sm"><a href="http://youtube.com/kraedt" title="YouTube" target="_blank"><img
-                    src="/assets/images/youtube_icon.png"></a></li>
-            <li class="sm"><a href="https://open.spotify.com/artist/0YbhxZi9PSVTmB4UMkM5Jw" title="Spotify"
-                              target="_blank"><img src="/assets/images/spotify_icon.png"></a></li>
-            <li class="sm"><a href="https://pro.beatport.com/artist/kraedt/429462" title="Beatport" target="_blank"><img
-                    src="/assets/images/beatport_icon.png"></a></li>
-            <li class="sm"><a href="http://twitter.com/kraedt" title="Twitter" target="_blank"><img
-                    src="/assets/images/twitter_icon.png"></a></li>
-            <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a>
-        </ul>
     </div>
     <div class="banner">
         <div class="logo"><img src="/assets/images/logo.png"/></div>
